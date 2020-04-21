@@ -1,0 +1,46 @@
+.navbar-inverse {
+    background-color: #e60012 !important;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #FFFFFF !important;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #FFFFFF;
+    text-decoration: overline;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #FFFFFF;
+    text-decoration: overline;
+}
+
+footer {
+    background-color: #e60012 !important;
+    color: #FFFFFF !important;
+}
+
+footer a,
+footer a:hover {
+    color: #FFFFFF;
+}
+
+.footer-social__link_twitter,
+.footer-social__link_facebook,
+.footer-social__link_google-plus,
+.footer-social__link_google-plus {
+    background-color: white;
+}
+
+.fa {
+    color: red;
+}

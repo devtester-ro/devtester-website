@@ -26,7 +26,9 @@
     <!-- CSS Plugins -->
     <asset:stylesheet src="css/plugins/animate.css"/>
     <asset:stylesheet src="css/plugins/owl.carousel.css"/>
+    <asset:stylesheet src="css/plugins/owl.theme.css"/>
     <asset:stylesheet src="css/plugins/lightbox.css"/>
+    <asset:stylesheet src="css/docs.min.css"/>
     <asset:stylesheet src="fonts/open-iconic/font/css/open-iconic-bootstrap.css"/>
     <asset:stylesheet src="fonts/font-awesome/css/font-awesome.min.css"/>
 

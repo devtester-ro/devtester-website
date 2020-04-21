@@ -18,7 +18,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">DevTester 3.0</a>
+            <a class="navbar-brand" href="/">DevTester 3.0 | LG</a>
         </div>
 
         <div id="navbar" class="collapse navbar-collapse">
@@ -73,8 +73,6 @@
                    class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Fast Dormancy</a>
                 <a style="border: solid;" href="/projects/lg-firmwares/mlt"
                    class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Disable MLT</a>
-                <a style="border: solid;" href="/projects/lg-firmwares/wallpapers"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">2K Wallpapers</a>
                 <a style="border: solid;" href="#all-firmwares"
                    class="hero__btn btn btn-lg btn-link animated fadeInUp delay_2">See Firmwares</a>
 
@@ -235,9 +233,9 @@
                                 <tr class='warning'>
                             </g:else>
                             <td>${thisModel.model}</td>
-                            <td>${thisModel.buyer_name}</td>
+                            <td>${thisModel.buyer_name == null ? "-" : thisModel.buyer_name}</td>
                             <td>${thisModel.country}</td>
-                            <td>${thisModel.date}</td>
+                            <td>${thisModel.date.toString().split(' ')[0]}</td>
                             </tr>
                             </tbody>
                         </g:each>

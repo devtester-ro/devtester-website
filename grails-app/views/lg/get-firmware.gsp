@@ -24,7 +24,7 @@
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right ">
                 <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#imei">IMEI CHECK</a></li>
+                <li><a href="#imei">Imei Firmwares</a></li>
                 <li><a href="#get">Get Firmwares</a></li>
                 <li><a target="_blank" href="../../about.php">Contact Us</a></li>
                 <li class="hidden-xs">

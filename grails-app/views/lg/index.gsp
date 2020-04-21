@@ -24,10 +24,9 @@
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right ">
                 <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#imei"><b>IMEI CHECK</b></a></li>
+                <li><a href="#imei">Imei Firmwares</a></li>
                 <li><a href="#all-firmwares">Latest Firmwares</a></li>
-                <li><a href="#download-firmwares">All Firmwares Download</a></li>
-                <li><a href="#country">Countries &amp; Download</a></li>
+                <li><a href="#all-download">Download Firmwares</a></li>
                 <li class="hidden-xs">
                     <p class="navbar-text navbar__separator"></p>
                 </li>
@@ -201,7 +200,7 @@
 <div class="section section_alt section_download" id="download">
     <div class="container">
         <div class="row">
-            <h3 id="firmwares" class="heading">Latest Firmwares</h3>
+            <h3 id="all-firmwares" class="heading">Latest Firmwares</h3>
 
             <p class="heading__sub">
                 Updated every <b>6 hours</b> this is the most recent LG Firmware releases.</br> Links can be found
@@ -299,276 +298,18 @@
     <!-- / .container -->
 </div>
 
-
-<!-- DOWNLOAD COUNTRIES -->
-<div class="section" id="download-countries">
+<!-- DOWNLOAD FIRMWARES -->
+<div class="section" id="all-download">
     <div class="container">
         <div class="row">
-            <h3 id="about" class="heading">Countries &amp; Download Section</h3>
+            <h3 id="about" class="heading">DOWNLOAD &amp; Find All Firmwares</h3>
 
             <p class="heading__sub">
-                If you want to find more specific firmwares based on your country.<br/>
-                Select one and see what firwares were recently released and also specific firmwares just for you.
+                If you want to find more specific firmwares to download.<br/>
+                Hit the button and use the search function to identify your ROM. <br> <br>
+                <g:submitButton class="btn btn-primary wow fadeInLeft animated animated" value="GoToDownloads"
+                                name="submit"/>
             </p>
-
-            <form id="countries" action="country.php" method="get">
-                <button style="border: solid #355c7d;" type="submit" id="Algeria" name="country" value="Algeria"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Algeria
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="ALGIERS" name="country" value="ALGIERS"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">ALGIERS
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Argentina" name="country" value="Argentina"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Argentina
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Australia" name="country" value="Australia"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Australia
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Austria" name="country" value="Austria"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Austria
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Baltics" name="country" value="Baltics"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Baltics
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Belgium" name="country" value="Belgium"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Belgium
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Benelux" name="country" value="Benelux"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Benelux
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Bolivia" name="country" value="Bolivia"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Bolivia
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Bosnia And Herzegovina" name="country"
-                        value="Bosnia And Herzegovina"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Bosnia And Herzegovina
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Brazil" name="country" value="Brazil"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Brazil
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Bulgaria" name="country" value="Bulgaria"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Bulgaria
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Canada" name="country" value="Canada"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Canada
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Chile" name="country" value="Chile"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Chile
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="China" name="country" value="China"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">China
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Cis" name="country" value="Cis"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Cis
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Central America" name="country"
-                        value="Central America" class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">
-                    Central
-                    America
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Colombia" name="country" value="Colombia"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Colombia
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Costa Rica" name="country"
-                        value="Costa Rica"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Costa Rica
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Croatia" name="country" value="Croatia"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Croatia
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Czech Republic" name="country"
-                        value="Czech Republic" class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">
-                    Czech
-                    Republic
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Dominica" name="country" value="Dominica"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Dominica
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="El Salvador" name="country"
-                        value="El Salvador"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">El Salvador
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Europe" name="country" value="Europe"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Europe
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Ecuador" name="country" value="Ecuador"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Ecuador
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="France" name="country" value="France"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">France
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Germany" name="country" value="Germany"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Germany
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Greece" name="country" value="Greece"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Greece
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Guatemala" name="country" value="Guatemala"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Guatemala
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Hungary" name="country" value="Hungary"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Hungary
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Indonesia" name="country" value="Indonesia"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Indonesia
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Italy" name="country" value="Italy"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Italy
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Israel" name="country" value="Israel"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Israel
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="India" name="country" value="India"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">India
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Ireland" name="country" value="Ireland"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Ireland
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Iraq" name="country" value="Iraq"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Iraq
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Jamaica" name="country" value="Jamaica"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Jamaica
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Japan" name="country" value="Japan"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Japan
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Kazakhstan" name="country"
-                        value="Kazakhstan"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Kazakhstan
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Kenya" name="country" value="Kenya"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Kenya
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Mexico" name="country" value="Mexico"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Mexico
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Montenegro" name="country"
-                        value="Montenegro"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Montenegro
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Malaysia" name="country" value="Malaysia"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Malaysia
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Morocco" name="country" value="Morocco"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Morocco
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="NORTHERN EUROPE" name="country"
-                        value="NORTHERN EUROPE" class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">
-                    NORTHERN
-                    EUROPE
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Netherlands" name="country"
-                        value="Netherlands"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Netherlands
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Norway" name="country" value="Norway"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Norway
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Nigeria" name="country" value="Nigeria"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Nigeria
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="New Zealand" name="country"
-                        value="New Zealand"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">New Zealand
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Panama" name="country" value="Panama"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Panama
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Paraguay" name="country" value="Paraguay"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Paraguay
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Portugal" name="country" value="Portugal"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Portugal
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Peru" name="country" value="Peru"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Peru
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Poland" name="country" value="Poland"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Poland
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Philippines" name="country"
-                        value="Philippines"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Philippines
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Puerto Rico" name="country"
-                        value="Puerto Rico"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Puerto Rico
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Republic Of Korea" name="country"
-                        value="Republic Of Korea"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Republic
-                Of Korea
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Romania" name="country" value="Romania"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Romania
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Saudi Arabia" name="country"
-                        value="Saudi Arabia" class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">
-                    Saudi
-                    Arabia
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Serbia" name="country" value="Serbia"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Serbia
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Singapore" name="country" value="Singapore"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Singapore
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Slovakia" name="country" value="Slovakia"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Slovakia
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="South Africa" name="country"
-                        value="South Africa" class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">
-                    South
-                    Africa
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Spain" name="country" value="Spain"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Spain
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Sweden" name="country" value="Sweden"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Sweden
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Switzerland" name="country"
-                        value="Switzerland"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Switzerland
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Thailand" name="country" value="Thailand"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Thailand
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Tunisia" name="country" value="Tunisia"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Tunisia
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Turkey" name="country" value="Turkey"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Turkey
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Taiwan" name="country" value="Taiwan"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Taiwan
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="United Arab Emirates" name="country"
-                        value="United Arab Emirates"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">United
-                Arab Emirates
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="United Kingdom" name="country"
-                        value="United Kingdom" class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">
-                    United
-                    Kingdom
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="United States" name="country"
-                        value="United States" class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">
-                    United
-                    States
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Uruguay" name="country" value="Uruguay"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Uruguay
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Vietnam" name="country" value="Vietnam"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Vietnam
-                </button>
-                <button style="border: solid #355c7d;" type="submit" id="Venezuela" name="country" value="Venezuela"
-                        class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Venezuela
-                </button>
-            </form>
 
         </div>
         <!-- / .container -->

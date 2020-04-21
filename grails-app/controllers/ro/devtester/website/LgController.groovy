@@ -35,4 +35,8 @@ class LgController {
         }
     }
 
+    def downloadFirmwares() {
+        //TODO
+    }
+
 }

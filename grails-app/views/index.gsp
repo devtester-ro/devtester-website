@@ -18,14 +18,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="http://devtester.ro">DevTester 3.0</a>
+            <a class="navbar-brand" href="/">DevTester 3.0</a>
         </div>
 
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right ">
                 <li class="active"><a href="#home">Home</a></li>
                 <li><a href="#description">Description</a></li>
-                <!-- <li><a href="#portfolio">Portfolio</a></li> -->
                 <li><a href="#products">Products</a></li>
                 <li><a href="#team">Team</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -282,8 +281,8 @@
 
                 <p class="heading__sub">
                     DevTester is a site built for Automation. It's a free open source place were you can learn to make Web Testing / Phone Testing / Security Testing.</p>
-                <a href=/about"
-                   class="btn btn-a href-primary heading__btn wow fadeInUp">GoTo About</a>
+                <a href="/about" class="btn btn-lg btn-primary heading__btn wow fadeInUp" data-wow-offset="17"
+                   style="visibility: visible; animation-name: fadeInUp;">GoTo About</a>
             </div>
         </div> <!-- / .row -->
     </div> <!-- / .container -->

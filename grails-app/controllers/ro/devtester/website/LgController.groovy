@@ -13,10 +13,9 @@ class LgController {
             def dateFormatted = date.format(acceptedFormat)
 
             def latestFirmwares = Latest.findAllByDateGreaterThan(new Date().parse(acceptedFormat, dateFormatted), [sort: 'date', order: 'desc'])
-            [latestFirmwares: latestFirmwares]
 
             def countLgFirmwares = Imei.count()
-            [countLgFirmwares: countLgFirmwares]
+            render(view: "index", model: [latestFirmwares: latestFirmwares, countLgFirmwares: countLgFirmwares])
         }
     }
 

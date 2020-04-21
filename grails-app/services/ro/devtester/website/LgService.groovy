@@ -44,7 +44,7 @@ class LgService {
         }
     }
 
-    def getFirmwareByImei(String esn) {
+    def storeAndGetFirmwareByImei(String esn) {
 
         RestBuilder restBuilder = new RestBuilder()
         def resp = restBuilder.get("http://csmg.lgmobile.com:9002/csmg/b2c/client/auth_model_check2.jsp?esn=" + esn)

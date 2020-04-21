@@ -10,15 +10,14 @@ class UrlMappings {
         }
 
         "/"(view: '/index')
-        "/about" (view: '/home/about')
-        "/projects/lg-firmwares" (view: '/lg/index')
+        "/about"(view: '/home/about')
+        "/projects/lg-firmwares"(view: '/lg/index')
         "/projects/lg-firmwares/install"(view: '/lg/install')
         "/projects/lg-firmwares/drivers"(view: '/lg/drivers')
         "/projects/lg-firmwares/fast-dormancy"(view: '/lg/fast-dormancy')
         "/projects/lg-firmwares/mlt"(view: '/lg/mlt')
-        "/projects/lg-firmwares/download"(view: '/lg/download')
         "/projects/nintendo-switch"(view: '/nintendo/index')
-        "/projects/lg-firmwares" (controller: 'lg')
+        "/projects/lg-firmwares"(controller: 'lg')
         "500"(view: '/error')
         "404"(view: '/notFound')
         "/ads.txt"(controller: 'home', action: 'adstxt')

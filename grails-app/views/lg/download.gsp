@@ -24,9 +24,9 @@
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right ">
                 <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#imei">IMEI CHECK</a></li>
+                <li><a href="#imei">Imei Firmwares</a></li>
                 <li><a href="#download">Download Firmwares</a></li>
-                <li><a target="_blank" href="../../about">Contact Us</a></li>
+                <li><a target="_blank" href="../../about">About</a></li>
                 <li class="hidden-xs">
                     <p class="navbar-text navbar__separator"></p>
                 </li>
@@ -66,7 +66,6 @@
 <!-- / .home -->
 
 <!-- GOOGLE ADS -->
-
 <br>
 <section class="ads-transparent" data-type="background" data-speed="1">
     <div class="color-overlay">

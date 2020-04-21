@@ -63,7 +63,7 @@
 
                 <h2 style="font-size: 50px;" class="heading_sub hero__heading_sub animated fadeInUp">TUTORIALS &
                 TOOLS</h2>
-                <a style="border: solid;" href="/projects/lg-firmwares/install.php"
+                <a style="border: solid;" href="/projects/lg-firmwares/install"
                    class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">How To Install KDZ</a>
                 <a style="border: solid;" href="https://developers.google.com/android/nexus/images"
                    class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Update Nexus Devices</a>

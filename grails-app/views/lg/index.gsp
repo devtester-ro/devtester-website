@@ -299,7 +299,7 @@
 <div class="section" id="all-download">
     <div class="container">
         <div class="row">
-            <h3 id="about" class="heading">DOWNLOAD &amp; Find All Firmwares</h3>
+            <h3 id="about" class="heading">Find All Firmwares &amp; DOWNLOAD</h3>
 
             <p class="heading__sub">
                 If you want to find more specific firmwares to download.<br/>

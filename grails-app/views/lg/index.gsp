@@ -18,7 +18,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">DevTester 3.0 | LG</a>
+            <a class="navbar-brand" href="/">DevTester 3.2 | LG</a>
         </div>
 
         <div id="navbar" class="collapse navbar-collapse">
@@ -305,7 +305,7 @@
                 If you want to find more specific firmwares to download.<br/>
                 Hit the button and use the search function to identify your ROM. <br> <br>
                 <g:form align="center" controller="lg">
-                    <g:actionSubmit class="btn btn-primary wow fadeInLeft animated animated" value="GoToDownloads"
+                    <g:actionSubmit class="btn btn-primary wow fadeInLeft animated animated" value="GoTo Downloads"
                                     action="downloadFirmwares"/>
                 </g:form>
             </p>

@@ -1,3 +1,4 @@
+//tag::buildscript[]
 buildscript {
     repositories {
         mavenLocal()
@@ -5,36 +6,37 @@ buildscript {
     }
     dependencies {
         classpath "org.grails:grails-gradle-plugin:$grailsVersion"
-        classpath "org.grails.plugins:hibernate5:${gormVersion - ".RELEASE"}"
         classpath "com.bertramlabs.plugins:asset-pipeline-gradle:2.14.2"
-        classpath "com.bmuschko:gradle-docker-plugin:3.5.0"
+        classpath "org.grails.plugins:hibernate5:${gormVersion-".RELEASE"}"
         classpath 'com.google.cloud.tools:appengine-gradle-plugin:1.3.2'
     }
 }
+//end::buildscript[]
+version "0.2"
+group "grails.google.cloud"
 
-version "0.1"
-group "ro.devtester.website"
-
-apply plugin: "eclipse"
-apply plugin: "idea"
-apply plugin: "war"
-apply plugin: "org.grails.grails-web"
-apply plugin: "org.grails.grails-gsp"
-apply plugin: "asset-pipeline"
+apply plugin:"eclipse"
+apply plugin:"idea"
+apply plugin:"war"
+apply plugin:"org.grails.grails-web"
+apply plugin:"org.grails.grails-gsp"
+apply plugin:"asset-pipeline"
+//tag::applyappengineplugin[]
 apply plugin: 'com.google.cloud.tools.appengine'
-apply plugin: "com.bertramlabs.asset-pipeline"
-apply plugin: "com.bmuschko.docker-remote-api"
+//end::applyappengineplugin[]
 
 repositories {
     mavenLocal()
     maven { url "https://repo.grails.org/grails/core" }
 }
 
+//tag::configurationsexclude[]
 configurations {
     compile.exclude module: "tomcat-juli"
     compile.exclude module: "spring-boot-starter-tomcat"
     compile.exclude group: "com.google.guava", module: "guava-jdk5"
 }
+//end::configurationsexclude[]
 
 dependencies {
     compile "org.springframework.boot:spring-boot-starter-logging"
@@ -58,77 +60,32 @@ dependencies {
     compile "org.grails.plugins:hibernate5"
     compile "org.hibernate:hibernate-core:5.1.5.Final"
     compile "org.grails.plugins:gsp"
-    compile 'com.google.cloud:google-cloud-storage:1.2.3'
     console "org.grails:grails-console"
     profile "org.grails.profiles:web"
     runtime "org.glassfish.web:el-impl:2.1.2-b03"
-    runtime "com.h2database:h2"
     runtime "org.apache.tomcat:tomcat-jdbc"
     runtime "com.bertramlabs.plugins:asset-pipeline-grails:2.14.2"
-    runtime 'mysql:mysql-connector-java:6.0.5'
-    runtime 'com.google.cloud.sql:mysql-socket-factory-connector-j-6:1.0.3'
     testCompile "org.grails:grails-gorm-testing-support"
-    testCompile "org.mockito:mockito-core"
     testCompile "org.grails:grails-web-testing-support"
+    runtime "com.h2database:h2"
     testCompile "org.grails.plugins:geb"
     testRuntime "org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1"
     testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
+    //tag::msyql[]
+    runtime 'mysql:mysql-connector-java:6.0.5'
+    runtime 'com.google.cloud.sql:mysql-socket-factory-connector-j-6:1.0.3'
+    //end::msyql[]
+    //tag::cloudstorage[]
+    compile 'com.google.cloud:google-cloud-storage:1.2.3'
+    //end::cloudstorage[]
 }
 
 bootRun {
-    jvmArgs('-Dspring.output.ansi.enabled=always',
-            '-noverify')
+    jvmArgs('-Dspring.output.ansi.enabled=always')
     addResources = true
-    String springProfilesActive = 'spring.profiles.active'
-    systemProperty springProfilesActive, System.getProperty(springProfilesActive)
 }
 
 assets {
     minifyJs = true
     minifyCss = true
-}
-
-import com.bmuschko.gradle.docker.tasks.image.DockerBuildImage
-import com.bmuschko.gradle.docker.tasks.image.Dockerfile
-
-ext {
-    dockerTag = "levelik/${project.name}:${project.version}".toLowerCase()
-    dockerBuildDir = mkdir("${buildDir}/docker")
-}
-
-task prepareDocker(type: Copy, dependsOn: assemble) {
-    description = 'Copy files from src/main/docker and application jar to Docker temporal build directory'
-    group = 'Docker'
-
-    from 'src/main/docker'
-    from project.jar
-
-    into dockerBuildDir
-}
-task createDockerfile(type: Dockerfile, dependsOn: prepareDocker) {
-    description = 'Create a Dockerfile file'
-    group = 'Docker'
-
-    destFile = project.file("${dockerBuildDir}/Dockerfile")
-
-    from 'openjdk:8-jdk-alpine'
-    maintainer 'Iulian Petcu "levelik@gmail.com"'
-
-    exposePort 8080
-
-    workingDir '/app'
-
-    copyFile jar.archiveName, 'application.jar'
-    copyFile 'app-entrypoint.sh', 'app-entrypoint.sh'
-    runCommand 'chmod +x app-entrypoint.sh'
-
-    entryPoint '/app/app-entrypoint.sh'
-}
-
-task buildImage(type: DockerBuildImage, dependsOn: createDockerfile) {
-    description = 'Create Docker image to run the Grails application'
-    group = 'Docker'
-
-    inputDir = file(dockerBuildDir)
-    tag = dockerTag
 }

@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta name="layout" content="main"/>
-    <title>LG Firmware Updates | Install KDZ - DevTester</title>
+    <title>Drivers | LG Firmware Updates - DevTester</title>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="71">
 
-<!-- NAVBAR -->
+<!-- NAVBAR
+    ============================== -->
 <nav class="navbar navbar-default navbar-fixed-top js-navbar-top js-toggleClass">
     <div class="container">
         <div class="navbar-header">
@@ -24,9 +25,9 @@
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right ">
                 <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#imei">Imei Firmwares</a></li>
-                <li><a href="#all-firmwares">Latest Firmwares</a></li>
-                <li><a href="#all-download">Download Firmwares</a></li>
+                <li><a href="/projects/lg-firmwares/">LG Firmwares</a></li>
+                <li><a href="#drivers">Drivers</a></li>
+                <li><a target="_blank" href="../../about">Contact Us</a></li>
                 <li class="hidden-xs">
                     <p class="navbar-text navbar__separator"></p>
                 </li>
@@ -42,41 +43,20 @@
     </div>
 </nav>
 
-
-<!-- HOME-->
+<!-- HERO
+    ============================== -->
 <div class="hero hero_lg" id="home">
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
 
-                <!-- Home heading -->
-                <h1 style="font-size: 50px;" class="heading hero__heading animated fadeInUp">LG FIRMWARE UPDATES</h1>
+                <!-- Hero heading -->
+                <h1 style="font-size: 50px;" class="heading hero__heading animated fadeInUp">Drivers Download</h1>
 
-                <!-- Home subheading -->
+                <!-- Hero subheading -->
                 <p style="font-size: 16px;" class="heading__sub hero-heading__sub animated fadeInUp delay_1">
-
+                    Latest LG mobile device drivers direct from LG servers.
                 </p>
-
-                <!-- Home buttons -->
-                <a style="border: solid;" target="_blank" href="/about#donate"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Donate</a>
-
-                <h2 style="font-size: 50px;" class="heading_sub hero__heading_sub animated fadeInUp">TUTORIALS &
-                TOOLS</h2>
-                <a style="border: solid;" href="/projects/lg-firmwares/install"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">How To Install KDZ</a>
-                <a style="border: solid;" href="https://developers.google.com/android/nexus/images"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Update Nexus Devices</a>
-                <a style="border: solid;" href="/projects/lg-firmwares/drivers"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">LG Drivers</a>
-                <a style="border: solid;" href="/projects/lg-firmwares/fast-dormancy"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Fast Dormancy</a>
-                <a style="border: solid;" href="/projects/lg-firmwares/mlt"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Disable MLT</a>
-                <a style="border: solid;" href="/projects/lg-firmwares/wallpapers"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">2K Wallpapers</a>
-                <a style="border: solid;" href="#all-firmwares"
-                   class="hero__btn btn btn-lg btn-link animated fadeInUp delay_2">See Firmwares</a>
 
             </div>
         </div>
@@ -84,19 +64,21 @@
     </div>
     <!-- / .container -->
 </div>
-<!-- / .home -->
+<!-- / .hero -->
 
-<!-- GOOGLE ADS -->
-<br>
+<!-- GOOGLE ADS
+    ============================== -->
+
+</br>
 <section class="ads-transparent" data-type="background" data-speed="1">
     <div class="color-overlay">
         <div class="container">
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- DevTester-LG-Index-Top -->
+            <!-- DevTester-LG-Drivers-Top -->
             <ins class="adsbygoogle"
                  style="display:block"
                  data-ad-client="ca-pub-1881838157428798"
-                 data-ad-slot="9238869868"
+                 data-ad-slot="4389867869"
                  data-ad-format="auto"></ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
@@ -105,17 +87,18 @@
     </div>
 </section>
 
-<!-- DESCRIPTION -->
 <div class="section" id="description">
 
+    <!-- ABOUT
+        ============================== -->
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h3 class="heading">Latest Firmwares - Links</h3>
+                <h3 class="heading">Drivers - Info</h3>
 
                 <p class="heading__sub">
-                    Here you can find all recent firmwares, query for your phones latest firmware via IMEI/ESN or
-                    check the download section.
+                    Any smartphone needs drivers in order to connect your phone to the PC.</br> Here you can
+                find both <b>Windows</b> and <b>MacOS</b> drivers.
                 </p>
             </div>
         </div>
@@ -123,7 +106,9 @@
     </div>
     <!-- / .container -->
 
-    <!-- FEATURES -->
+
+    <!-- FEATURES
+        ============================== -->
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
@@ -134,11 +119,11 @@
 
                     <div class="features-item__body">
                         <div class="features-item-body__title">
-                            <a href="#">Latest Firmwares</a>
+                            Install a custom rom?
                         </div>
 
                         <div class="features-item-body__summary">
-                            Check the table and search for your model / operator / region etc.
+                            You will need to install LG drivers in order to have ADB connectivity.
                         </div>
                     </div>
                     <!-- / .features-item__body -->
@@ -154,12 +139,12 @@
 
                     <div class="features-item__body">
                         <div class="features-item-body__title">
-                            <a href="#imei">Check via IMEI / ESN</a>
+                            Get content on your phone?
                         </div>
 
                         <div class="features-item-body__summary">
-                            If you don't know what to download the best and safest way it to get the firmware via
-                            IMEI/ESN. This software is 100% made for your phone.
+                            To properly assure that you can get content on and off your phone download the
+                            apropriate drivers.
                         </div>
                     </div>
                     <!-- / .features-item__body -->
@@ -167,7 +152,7 @@
                 <!-- / .features__item -->
             </div>
 
-            <div id="download-firmwares" class="col-sm-4">
+            <div class="col-sm-4">
                 <div class="features__item wow fadeIn">
                     <div class="features-item__icon">
                         <span class="oi oi-envelope-open"></span>
@@ -175,13 +160,11 @@
 
                     <div class="features-item__body">
                         <div class="features-item-body__title">
-                            <a target="_blank" href="/projects/lg-firmwares/download.php">All Download Firmwares</a>
+                            Using your phone as a WebCam
                         </div>
 
                         <div class="features-item-body__summary">
-                            With over - <b>
-                            <g:formatNumber
-                                    number="${countLgFirmwares}"/></b> firmwares it will be a breeze to find what you are looking for.
+                            In this case also you will need to peer with your PC.
                         </div>
                     </div>
                     <!-- / .features-item__body -->
@@ -190,85 +173,81 @@
             </div>
 
         </div>
-        <!-- / .container -->
+        <!-- / .row -->
     </div>
-    <!-- / .section -->
+    <!-- / .container -->
+
 </div>
 <!-- / .section -->
 
-<!-- DOWNLOAD -->
+<!-- ABOUT
+    ============================== -->
 <div class="section section_alt section_download" id="download">
     <div class="container">
         <div class="row">
-            <h3 id="all-firmwares" class="heading">Latest Firmwares</h3>
+            <h3 id="drivers" class="heading">Drivers Download</h3>
 
-            <p class="heading__sub">
-                Updated every <b>6 hours</b> this is the most recent LG Firmware releases.</br> Links can be found
-            in <b>All Firmwares Download</b> section, selecting a <b>Country</b> from below or checking via <b>IMEI/ESN</b>.
-            </p>
-
-            <div>
-                <div class="input-group"><span class="input-group-addon">Filter</span>
-                    <input id="filter" type="text" class="form-control" placeholder="Filter results in table...">
+            <section class="ads-transparent" data-type="background" data-speed="1">
+                <div class="color-overlay">
+                    <div class="container">
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- DevTester-LG-Drivers-Middle -->
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-1881838157428798"
+                             data-ad-slot="5866601065"
+                             data-ad-format="auto"></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                    </div>
                 </div>
-                <br>
+            </section>
+        </br>
 
+            <div class="container">
                 <div class="table-responsive">
 
-                    <table class='table table-inverse table-striped table-bordered table-hover' cellspacing='0'>
-
+                    <table class='table table-striped table-bordered table-hover' cellspacing='0'>
                         <thead>
                         <tr>
-                            <th class='align'>MODEL</th>
-                            <th class='align'>BUYER NAME</th>
-                            <th class='align'>COUNTRY</th>
-                            <th class='align'>LIVE DATE</th>
+                            <th class='align'>OS</th>
+                            <th class='align'>DOWNLOAD</th>
                         </tr>
                         </thead>
 
-                        <g:each in="${latestFirmwares}" var="thisModel">
-                            <tbody class='searchable'>
-                            <g:if test="${thisModel.date == new Date().parse("yyyy-MM-dd", new Date().format("yyyy-MM-dd"))}">
-                                <tr class='success'>
-                            </g:if>
-                            <g:else>
-                                <tr class='warning'>
-                            </g:else>
-                            <td>${thisModel.model}</td>
-                            <td>${thisModel.buyer_name}</td>
-                            <td>${thisModel.country}</td>
-                            <td>${thisModel.date}</td>
-                            </tr>
-                            </tbody>
-                        </g:each>
-
+                        <tbody class='searchable'>
+                        <tr class='active'>
+                            <td>Windows</td>
+                            <td>
+                                <a href="http://18d5a.wpc.azureedge.net/8018D5A/tool/dn/downloader.dev?fileKey=UW00120120425">Download</a>
+                            </td>
+                        </tr>
+                        <tr class='active'>
+                            <td>Mac</td>
+                            <td>
+                                <a href="http://18d5a.wpc.azureedge.net/8018D5A/tool/dn/downloader.dev?fileKey=UW00320110909">Download</a>
+                            </td>
+                        </tr>
+                        </tbody>
                     </table>
 
                 </div>
             </div>
 
         </div>
-        <!-- / .row -->
+    </br>
     </div>
-    <br> <!-- / .container -->
-    <section class="ads-transparent" data-type="background" data-speed="1">
-        <div class="color-overlay">
-            <div class="container">
-                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- DevTester-LG-Index-Middle -->
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-1881838157428798"
-                     data-ad-slot="1715603066"
-                     data-ad-format="auto"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
-        </div>
-    </section>
+
+    <div class="text-center">
+        <a style="border: solid;" href="/projects/lg-firmwares/"
+           class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">BACK</a>
+
+        <div class="clearfix"></div>
+    </div>
+
 </div>
-<!-- / .section -->
+<!-- / .row -->
 
 <!-- IMEI SECTION -->
 <div class="imei" id="subscribe">
@@ -298,25 +277,8 @@
     <!-- / .container -->
 </div>
 
-<!-- DOWNLOAD FIRMWARES -->
-<div class="section" id="all-download">
-    <div class="container">
-        <div class="row">
-            <h3 id="about" class="heading">DOWNLOAD &amp; Find All Firmwares</h3>
-
-            <p class="heading__sub">
-                If you want to find more specific firmwares to download.<br/>
-                Hit the button and use the search function to identify your ROM. <br> <br>
-                <g:submitButton class="btn btn-primary wow fadeInLeft animated animated" value="GoToDownloads"
-                                name="submit"/>
-            </p>
-
-        </div>
-        <!-- / .container -->
-    </div>
-</div>
-
-<!-- SKILLS -->
+<!-- SKILLS
+    ============================== -->
 <div class="section" id="skills">
     <div class="container">
         <div class="row">
@@ -372,11 +334,11 @@
     <div class="color-overlay">
         <div class="container">
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- DevTester-LG-Index-Bottom -->
+            <!-- DevTester-LG-Drivers-Bottom -->
             <ins class="adsbygoogle"
                  style="display:block"
                  data-ad-client="ca-pub-1881838157428798"
-                 data-ad-slot="3192336262"
+                 data-ad-slot="7343334266"
                  data-ad-format="auto"></ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
@@ -384,5 +346,6 @@
         </div>
     </div>
 </section>
+
 </body>
 </html>

@@ -7,8 +7,7 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="71">
 
-<!-- NAVBAR
-    ============================== -->
+<!-- NAVBAR -->
 <nav class="navbar navbar-default navbar-fixed-top js-navbar-top js-toggleClass">
     <div class="container">
         <div class="navbar-header">
@@ -19,7 +18,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="http://devtester.ro">DevTester 3.0</a>
+            <a class="navbar-brand" href="/">DevTester 3.0</a>
         </div>
 
         <div id="navbar" class="collapse navbar-collapse">
@@ -186,7 +185,7 @@
 <div class="section section_alt section_download" id="download">
     <div class="container">
         <div class="row">
-            <h3 id="mlt" class="heading">Install KDZ files</h3>
+            <h3 id="mlt" class="heading" id="install-kdz">Install KDZ files</h3>
 
             <section class="ads-transparent" data-type="background" data-speed="1">
                 <div class="color-overlay">
@@ -309,7 +308,7 @@
                         <div class="item item-1">
                             <pre><code style="font-size: 13px;" class="html hljs xml"><b>Steps</b></code></pre>
                             <pre><code style="font-size: 13px;" class="html hljs xml">1. Download - <a target="_blank"
-                                                                                                       href="/projects/lg-firmwares/drivers.php">LG Drivers</a>
+                                                                                                       href="/projects/lg-firmwares/drivers">LG Drivers</a>
                             </code></pre>
                             <pre><code style="font-size: 13px;" class="html hljs xml">2. Download - <a target="_blank"
                                                                                                        href="http://etp.tfm.ro/LG%20Flash%20Tool%202014.zip">LG Flash Tool 2014</a>

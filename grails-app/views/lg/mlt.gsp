@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta name="layout" content="main"/>
-    <title>LG Firmware Updates | Install KDZ - DevTester</title>
+    <title>Disable MLT/LDB | LG Firmware Updates - DevTester</title>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="71">
@@ -24,9 +24,9 @@
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right ">
                 <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#imei">Imei Firmwares</a></li>
-                <li><a href="#all-firmwares">Latest Firmwares</a></li>
-                <li><a href="#all-download">Download Firmwares</a></li>
+                <li><a href="/projects/lg-firmwares/">LG Firmwares</a></li>
+                <li><a href="#mlt">Disable MLT/LDB</a></li>
+                <li><a target="_blank" href="../../about">Contact Us</a></li>
                 <li class="hidden-xs">
                     <p class="navbar-text navbar__separator"></p>
                 </li>
@@ -42,41 +42,20 @@
     </div>
 </nav>
 
-
-<!-- HOME-->
+<!-- HERO
+    ============================== -->
 <div class="hero hero_lg" id="home">
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
 
-                <!-- Home heading -->
-                <h1 style="font-size: 50px;" class="heading hero__heading animated fadeInUp">LG FIRMWARE UPDATES</h1>
+                <!-- Hero heading -->
+                <h1 style="font-size: 50px;" class="heading hero__heading animated fadeInUp">Disable MLT/LDB</h1>
 
-                <!-- Home subheading -->
+                <!-- Hero subheading -->
                 <p style="font-size: 16px;" class="heading__sub hero-heading__sub animated fadeInUp delay_1">
-
+                    Free up some <b>Ram</b> and also reduce some background activity.
                 </p>
-
-                <!-- Home buttons -->
-                <a style="border: solid;" target="_blank" href="/about#donate"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Donate</a>
-
-                <h2 style="font-size: 50px;" class="heading_sub hero__heading_sub animated fadeInUp">TUTORIALS &
-                TOOLS</h2>
-                <a style="border: solid;" href="/projects/lg-firmwares/install"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">How To Install KDZ</a>
-                <a style="border: solid;" href="https://developers.google.com/android/nexus/images"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Update Nexus Devices</a>
-                <a style="border: solid;" href="/projects/lg-firmwares/drivers"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">LG Drivers</a>
-                <a style="border: solid;" href="/projects/lg-firmwares/fast-dormancy"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Fast Dormancy</a>
-                <a style="border: solid;" href="/projects/lg-firmwares/mlt"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Disable MLT</a>
-                <a style="border: solid;" href="/projects/lg-firmwares/wallpapers"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">2K Wallpapers</a>
-                <a style="border: solid;" href="#all-firmwares"
-                   class="hero__btn btn btn-lg btn-link animated fadeInUp delay_2">See Firmwares</a>
 
             </div>
         </div>
@@ -84,19 +63,21 @@
     </div>
     <!-- / .container -->
 </div>
-<!-- / .home -->
+<!-- / .hero -->
 
-<!-- GOOGLE ADS -->
-<br>
+<!-- GOOGLE ADS
+    ============================== -->
+
+</br>
 <section class="ads-transparent" data-type="background" data-speed="1">
     <div class="color-overlay">
         <div class="container">
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- DevTester-LG-Index-Top -->
+            <!-- DevTester-LG-MLT-Top -->
             <ins class="adsbygoogle"
                  style="display:block"
                  data-ad-client="ca-pub-1881838157428798"
-                 data-ad-slot="9238869868"
+                 data-ad-slot="5587399464"
                  data-ad-format="auto"></ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
@@ -105,17 +86,17 @@
     </div>
 </section>
 
-<!-- DESCRIPTION -->
 <div class="section" id="description">
 
+    <!-- ABOUT
+        ============================== -->
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h3 class="heading">Latest Firmwares - Links</h3>
+                <h3 class="heading">MLT - Info</h3>
 
                 <p class="heading__sub">
-                    Here you can find all recent firmwares, query for your phones latest firmware via IMEI/ESN or
-                    check the download section.
+                    What is this MLT? A hidden application installed by LG that tracks specific user information.
                 </p>
             </div>
         </div>
@@ -123,7 +104,9 @@
     </div>
     <!-- / .container -->
 
-    <!-- FEATURES -->
+
+    <!-- FEATURES
+        ============================== -->
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
@@ -134,11 +117,11 @@
 
                     <div class="features-item__body">
                         <div class="features-item-body__title">
-                            <a href="#">Latest Firmwares</a>
+                            Hidden app
                         </div>
 
                         <div class="features-item-body__summary">
-                            Check the table and search for your model / operator / region etc.
+                            Tacking specific words that you type or receive in order to make it safe.
                         </div>
                     </div>
                     <!-- / .features-item__body -->
@@ -154,12 +137,11 @@
 
                     <div class="features-item__body">
                         <div class="features-item-body__title">
-                            <a href="#imei">Check via IMEI / ESN</a>
+                            Ram consumption
                         </div>
 
                         <div class="features-item-body__summary">
-                            If you don't know what to download the best and safest way it to get the firmware via
-                            IMEI/ESN. This software is 100% made for your phone.
+                            Unfortunately this app costs as muchs as <b>300MB Ram</b> to run.
                         </div>
                     </div>
                     <!-- / .features-item__body -->
@@ -167,7 +149,7 @@
                 <!-- / .features__item -->
             </div>
 
-            <div id="download-firmwares" class="col-sm-4">
+            <div class="col-sm-4">
                 <div class="features__item wow fadeIn">
                     <div class="features-item__icon">
                         <span class="oi oi-envelope-open"></span>
@@ -175,13 +157,11 @@
 
                     <div class="features-item__body">
                         <div class="features-item-body__title">
-                            <a target="_blank" href="/projects/lg-firmwares/download.php">All Download Firmwares</a>
+                            Background activity
                         </div>
 
                         <div class="features-item-body__summary">
-                            With over - <b>
-                            <g:formatNumber
-                                    number="${countLgFirmwares}"/></b> firmwares it will be a breeze to find what you are looking for.
+                            Since it runs in background this app will cost you battery life.
                         </div>
                     </div>
                     <!-- / .features-item__body -->
@@ -190,85 +170,102 @@
             </div>
 
         </div>
-        <!-- / .container -->
+        <!-- / .row -->
     </div>
-    <!-- / .section -->
+    <!-- / .container -->
+
 </div>
 <!-- / .section -->
 
-<!-- DOWNLOAD -->
+<!-- ABOUT
+    ============================== -->
 <div class="section section_alt section_download" id="download">
     <div class="container">
         <div class="row">
-            <h3 id="all-firmwares" class="heading">Latest Firmwares</h3>
+            <h3 id="mlt" class="heading">Disable MLT/LDB</h3>
 
-            <p class="heading__sub">
-                Updated every <b>6 hours</b> this is the most recent LG Firmware releases.</br> Links can be found
-            in <b>All Firmwares Download</b> section, selecting a <b>Country</b> from below or checking via <b>IMEI/ESN</b>.
-            </p>
-
-            <div>
-                <div class="input-group"><span class="input-group-addon">Filter</span>
-                    <input id="filter" type="text" class="form-control" placeholder="Filter results in table...">
+            <section class="ads-transparent" data-type="background" data-speed="1">
+                <div class="color-overlay">
+                    <div class="container">
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- DevTester-LG-MLT-Middle -->
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-1881838157428798"
+                             data-ad-slot="7064132667"
+                             data-ad-format="auto"></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                    </div>
                 </div>
-                <br>
+            </section>
+        </br>
 
-                <div class="table-responsive">
-
-                    <table class='table table-inverse table-striped table-bordered table-hover' cellspacing='0'>
-
-                        <thead>
-                        <tr>
-                            <th class='align'>MODEL</th>
-                            <th class='align'>BUYER NAME</th>
-                            <th class='align'>COUNTRY</th>
-                            <th class='align'>LIVE DATE</th>
-                        </tr>
-                        </thead>
-
-                        <g:each in="${latestFirmwares}" var="thisModel">
-                            <tbody class='searchable'>
-                            <g:if test="${thisModel.date == new Date().parse("yyyy-MM-dd", new Date().format("yyyy-MM-dd"))}">
-                                <tr class='success'>
-                            </g:if>
-                            <g:else>
-                                <tr class='warning'>
-                            </g:else>
-                            <td>${thisModel.model}</td>
-                            <td>${thisModel.buyer_name}</td>
-                            <td>${thisModel.country}</td>
-                            <td>${thisModel.date}</td>
-                            </tr>
-                            </tbody>
-                        </g:each>
-
-                    </table>
-
-                </div>
-            </div>
-
-        </div>
-        <!-- / .row -->
-    </div>
-    <br> <!-- / .container -->
-    <section class="ads-transparent" data-type="background" data-speed="1">
-        <div class="color-overlay">
             <div class="container">
-                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- DevTester-LG-Index-Middle -->
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-1881838157428798"
-                     data-ad-slot="1715603066"
-                     data-ad-format="auto"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
+
+                <div class="row" data-scrollreveal="enter left after 0s over 1s">
+
+                    <div class="col-lg-6">
+                        <div class="item item-1" style="border-bottom: 1px solid #8e8e8e !important;">
+                            <p style="margin-bottom: 13px !important;" class="lead"><b>Steps (Android 2.x -
+                            5.x):</b></p>
+
+                            <p style="margin-bottom: 13px !important;" class="lead">1. Dial - <b>3845#*855#</b>
+                                (note that 855 is the LG G3 model number e.g LGD855)</p>
+
+                            <p style="margin-bottom: 13px !important;" class="lead">2. Tap on <b>MLT TEST</b></p>
+
+                            <p style="margin-bottom: 13px !important;" class="lead">3. <b>Uncheck "Enable"</b></p>
+
+                            <p style="margin-bottom: 13px !important;" class="lead">4. Restart and Enjoy</b></p>
+                        </div>
+                    </br>
+
+                        <div class="item item-1" style="border-bottom: 1px solid #8e8e8e !important;">
+                            <p style="margin-bottom: 13px !important;" class="lead"><b>Steps (Android 6.x):</b></p>
+
+                            <p style="margin-bottom: 13px !important;" class="lead">1. Dial - <b>*#546368#*855#</b>
+                                (note that 855 is the LG G3 model number e.g LGD855)</p>
+
+                            <p style="margin-bottom: 13px !important;" class="lead">2. Tap on <b>SVC MENU</b></p>
+
+                            <p style="margin-bottom: 13px !important;" class="lead">3. Tap on <b>LDB</b></p>
+
+                            <p style="margin-bottom: 13px !important;" class="lead">3. <b>Uncheck "Enable"</b></p>
+
+                            <p style="margin-bottom: 13px !important;" class="lead">4. Restart and Enjoy</b></p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-6">
+                        <div class="item item-2">
+                            <a target="_blank" href="/assets/lg-install/mlt-disable.png" data-toggle="lightbox"
+                               data-gallery="multiimages" data-title="Disable MLT">
+                                <img src="/assets/lg-install/mlt-disable.png" class="img-thumbnail"
+                                     alt="Disable MLT" width='300' height='400'>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
+
         </div>
-    </section>
+    </br>
+    </div>
+
+    <div class="text-center">
+        <a style="border: solid;" href="/projects/lg-firmwares/"
+           class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">BACK</a>
+
+        <div class="clearfix"></div>
+    </div>
+
 </div>
-<!-- / .section -->
+<!-- / .row -->
 
 <!-- IMEI SECTION -->
 <div class="imei" id="subscribe">
@@ -298,25 +295,8 @@
     <!-- / .container -->
 </div>
 
-<!-- DOWNLOAD FIRMWARES -->
-<div class="section" id="all-download">
-    <div class="container">
-        <div class="row">
-            <h3 id="about" class="heading">DOWNLOAD &amp; Find All Firmwares</h3>
-
-            <p class="heading__sub">
-                If you want to find more specific firmwares to download.<br/>
-                Hit the button and use the search function to identify your ROM. <br> <br>
-                <g:submitButton class="btn btn-primary wow fadeInLeft animated animated" value="GoToDownloads"
-                                name="submit"/>
-            </p>
-
-        </div>
-        <!-- / .container -->
-    </div>
-</div>
-
-<!-- SKILLS -->
+<!-- SKILLS
+    ============================== -->
 <div class="section" id="skills">
     <div class="container">
         <div class="row">
@@ -372,11 +352,11 @@
     <div class="color-overlay">
         <div class="container">
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- DevTester-LG-Index-Bottom -->
+            <!-- DevTester-LG-MLT-Bottom -->
             <ins class="adsbygoogle"
                  style="display:block"
                  data-ad-client="ca-pub-1881838157428798"
-                 data-ad-slot="3192336262"
+                 data-ad-slot="1017599060"
                  data-ad-format="auto"></ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
@@ -384,5 +364,6 @@
         </div>
     </div>
 </section>
+
 </body>
 </html>

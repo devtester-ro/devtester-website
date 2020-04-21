@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta name="layout" content="main"/>
-    <title>LG Firmware Updates | Install KDZ - DevTester</title>
+    <title>Enable Fast Dormancy | LG Firmware Updates - DevTester</title>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="71">
@@ -18,15 +18,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">DevTester 3.0</a>
+            <a class="navbar-brand" href="http://devtester.ro">DevTester 3.0</a>
         </div>
 
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right ">
                 <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#imei">Imei Firmwares</a></li>
-                <li><a href="#all-firmwares">Latest Firmwares</a></li>
-                <li><a href="#all-download">Download Firmwares</a></li>
+                <li><a href="#">LG Firmwares</a></li>
+                <li><a href="#fast-dormancy">Fast Dormancy</a></li>
+                <li><a target="_blank" href="../../about">Contact Us</a></li>
                 <li class="hidden-xs">
                     <p class="navbar-text navbar__separator"></p>
                 </li>
@@ -42,41 +42,21 @@
     </div>
 </nav>
 
-
-<!-- HOME-->
+<!-- HERO
+    ============================== -->
 <div class="hero hero_lg" id="home">
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
 
-                <!-- Home heading -->
-                <h1 style="font-size: 50px;" class="heading hero__heading animated fadeInUp">LG FIRMWARE UPDATES</h1>
+                <!-- Hero heading -->
+                <h1 style="font-size: 50px;"
+                    class="heading hero__heading animated fadeInUp">HOW TO ENABLE FAST DORMANCY</h1>
 
-                <!-- Home subheading -->
+                <!-- Hero subheading -->
                 <p style="font-size: 16px;" class="heading__sub hero-heading__sub animated fadeInUp delay_1">
-
+                    A mobile technology feature designed to reduce battery consumption.
                 </p>
-
-                <!-- Home buttons -->
-                <a style="border: solid;" target="_blank" href="/about#donate"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Donate</a>
-
-                <h2 style="font-size: 50px;" class="heading_sub hero__heading_sub animated fadeInUp">TUTORIALS &
-                TOOLS</h2>
-                <a style="border: solid;" href="/projects/lg-firmwares/install"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">How To Install KDZ</a>
-                <a style="border: solid;" href="https://developers.google.com/android/nexus/images"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Update Nexus Devices</a>
-                <a style="border: solid;" href="/projects/lg-firmwares/drivers"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">LG Drivers</a>
-                <a style="border: solid;" href="/projects/lg-firmwares/fast-dormancy"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Fast Dormancy</a>
-                <a style="border: solid;" href="/projects/lg-firmwares/mlt"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Disable MLT</a>
-                <a style="border: solid;" href="/projects/lg-firmwares/wallpapers"
-                   class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">2K Wallpapers</a>
-                <a style="border: solid;" href="#all-firmwares"
-                   class="hero__btn btn btn-lg btn-link animated fadeInUp delay_2">See Firmwares</a>
 
             </div>
         </div>
@@ -84,19 +64,21 @@
     </div>
     <!-- / .container -->
 </div>
-<!-- / .home -->
+<!-- / .hero -->
 
-<!-- GOOGLE ADS -->
-<br>
+<!-- GOOGLE ADS
+    ============================== -->
+
+</br>
 <section class="ads-transparent" data-type="background" data-speed="1">
     <div class="color-overlay">
         <div class="container">
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- DevTester-LG-Index-Top -->
+            <!-- DevTester-LG-FD-Top -->
             <ins class="adsbygoogle"
                  style="display:block"
                  data-ad-client="ca-pub-1881838157428798"
-                 data-ad-slot="9238869868"
+                 data-ad-slot="8820067467"
                  data-ad-format="auto"></ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
@@ -105,17 +87,17 @@
     </div>
 </section>
 
-<!-- DESCRIPTION -->
 <div class="section" id="description">
 
+    <!-- ABOUT
+        ============================== -->
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h3 class="heading">Latest Firmwares - Links</h3>
+                <h3 class="heading">Fast Dormancy - Info</h3>
 
                 <p class="heading__sub">
-                    Here you can find all recent firmwares, query for your phones latest firmware via IMEI/ESN or
-                    check the download section.
+                    FD, a mobile technology feature designed to reduce battery consumption and network utilization between mobile devices and their respective carrier networks during periods of data inactivity.
                 </p>
             </div>
         </div>
@@ -123,7 +105,9 @@
     </div>
     <!-- / .container -->
 
-    <!-- FEATURES -->
+
+    <!-- FEATURES
+        ============================== -->
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
@@ -134,11 +118,11 @@
 
                     <div class="features-item__body">
                         <div class="features-item-body__title">
-                            <a href="#">Latest Firmwares</a>
+                            FD between you and carrier?
                         </div>
 
                         <div class="features-item-body__summary">
-                            Check the table and search for your model / operator / region etc.
+                            Before you start you must check if your operator has FD for your network.
                         </div>
                     </div>
                     <!-- / .features-item__body -->
@@ -154,12 +138,11 @@
 
                     <div class="features-item__body">
                         <div class="features-item-body__title">
-                            <a href="#imei">Check via IMEI / ESN</a>
+                            Battery?
                         </div>
 
                         <div class="features-item-body__summary">
-                            If you don't know what to download the best and safest way it to get the firmware via
-                            IMEI/ESN. This software is 100% made for your phone.
+                            Like any other situation when you put your phone on <b>Flight Mode</b> you instantly notice that your phone battery will drain very hard.
                         </div>
                     </div>
                     <!-- / .features-item__body -->
@@ -167,7 +150,7 @@
                 <!-- / .features__item -->
             </div>
 
-            <div id="download-firmwares" class="col-sm-4">
+            <div class="col-sm-4">
                 <div class="features__item wow fadeIn">
                     <div class="features-item__icon">
                         <span class="oi oi-envelope-open"></span>
@@ -175,13 +158,11 @@
 
                     <div class="features-item__body">
                         <div class="features-item-body__title">
-                            <a target="_blank" href="/projects/lg-firmwares/download.php">All Download Firmwares</a>
+                            But how?
                         </div>
 
                         <div class="features-item-body__summary">
-                            With over - <b>
-                            <g:formatNumber
-                                    number="${countLgFirmwares}"/></b> firmwares it will be a breeze to find what you are looking for.
+                            It will reduce the number of checks for your network when no activity is made. More info view the Youtube video below.
                         </div>
                     </div>
                     <!-- / .features-item__body -->
@@ -190,85 +171,142 @@
             </div>
 
         </div>
-        <!-- / .container -->
+        <!-- / .row -->
     </div>
-    <!-- / .section -->
+    <!-- / .container -->
+
 </div>
 <!-- / .section -->
 
-<!-- DOWNLOAD -->
+<!-- ABOUT
+    ============================== -->
 <div class="section section_alt section_download" id="download">
     <div class="container">
         <div class="row">
-            <h3 id="all-firmwares" class="heading">Latest Firmwares</h3>
+            <h3 id="fast-dormancy" class="heading">HOW TO ENABLE FAST DORMANCY</h3>
 
-            <p class="heading__sub">
-                Updated every <b>6 hours</b> this is the most recent LG Firmware releases.</br> Links can be found
-            in <b>All Firmwares Download</b> section, selecting a <b>Country</b> from below or checking via <b>IMEI/ESN</b>.
-            </p>
-
-            <div>
-                <div class="input-group"><span class="input-group-addon">Filter</span>
-                    <input id="filter" type="text" class="form-control" placeholder="Filter results in table...">
+            <section class="ads-transparent" data-type="background" data-speed="1">
+                <div class="color-overlay">
+                    <div class="container">
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- DevTester-LG-FD-Middle -->
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-1881838157428798"
+                             data-ad-slot="2773533862"
+                             data-ad-format="auto"></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                    </div>
                 </div>
-                <br>
+            </section>
+        </br>
 
-                <div class="table-responsive">
+            <h3><b><i>1 - What is Fast Dormancy</i></b></h3></br></br>
 
-                    <table class='table table-inverse table-striped table-bordered table-hover' cellspacing='0'>
-
-                        <thead>
-                        <tr>
-                            <th class='align'>MODEL</th>
-                            <th class='align'>BUYER NAME</th>
-                            <th class='align'>COUNTRY</th>
-                            <th class='align'>LIVE DATE</th>
-                        </tr>
-                        </thead>
-
-                        <g:each in="${latestFirmwares}" var="thisModel">
-                            <tbody class='searchable'>
-                            <g:if test="${thisModel.date == new Date().parse("yyyy-MM-dd", new Date().format("yyyy-MM-dd"))}">
-                                <tr class='success'>
-                            </g:if>
-                            <g:else>
-                                <tr class='warning'>
-                            </g:else>
-                            <td>${thisModel.model}</td>
-                            <td>${thisModel.buyer_name}</td>
-                            <td>${thisModel.country}</td>
-                            <td>${thisModel.date}</td>
-                            </tr>
-                            </tbody>
-                        </g:each>
-
-                    </table>
-
-                </div>
-            </div>
-
-        </div>
-        <!-- / .row -->
-    </div>
-    <br> <!-- / .container -->
-    <section class="ads-transparent" data-type="background" data-speed="1">
-        <div class="color-overlay">
             <div class="container">
-                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- DevTester-LG-Index-Middle -->
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-1881838157428798"
-                     data-ad-slot="1715603066"
-                     data-ad-format="auto"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
+
+                <div class="row" data-scrollreveal="enter left after 0s over 1s">
+
+                    <div class="col-lg-6">
+                        <div class="item item-1">
+                            <pre><code style="font-size: 13px;" class="html hljs xml"><b>Steps:</b></code></pre>
+                            <pre><code style="font-size: 13px;" class="html hljs xml">1. Check out the video</code>
+                            </pre>
+                            <pre><code style="font-size: 13px;"
+                                       class="html hljs xml">2. Contact your provider to see if Fast Dormancy is available</code>
+                            </pre>
+                            <pre><code style="font-size: 13px;"
+                                       class="html hljs xml">3. Works for 3G Network not 2G or 4G</code></pre>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="item item-2">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/O8L50sCY7CI"
+                                    frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div></br>
+
+            <div class="other-focuses">
+                <h3><span class="section-footer-title">Next</span></h3>
             </div>
-        </div>
-    </section>
+
+            <h3><b><i>2 - Enable Fast Dormancy</i></b></h3></br></br>
+
+            <div class="container">
+
+                <div class="row" data-scrollreveal="enter left after 0s over 1s">
+
+                    <div class="col-lg-6">
+                        <div class="item item-1">
+                            <pre><code style="font-size: 13px;" class="html hljs xml"><b>Steps:</b></code></pre>
+                            <pre><code style="font-size: 13px;"
+                                       class="html hljs xml">1. Dial - <b>3845#*855#</b> (note that 855 is the LG G3 model number e.g LGD855)
+                            </code></pre>
+                            <pre><code style="font-size: 13px;" class="html hljs xml">2. Tap on <b>WCDMA-Only</b></code>
+                            </pre>
+                            <pre><code style="font-size: 13px;"
+                                       class="html hljs xml">3. <b>Fast Dormancy Settings -> Check "ON"</b></code></pre>
+                            <pre><code style="font-size: 13px;"
+                                       class="html hljs xml">4. Under Setting <b>Fast Dormancy Mode - Status ENABLED</b>
+                            </code></pre>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-6">
+                        <div class="item item-2">
+                            <a href="/assets/lg-install/fd-1.png" data-toggle="lightbox" data-gallery="multiimages"
+                               data-title="Enable Fast Dormancy">
+                                <img src="/assets/lg-install/fd-1.png" class="img-thumbnail"
+                                     alt="Enable Fast Dormancy" width='160' height='130'>
+                            </a>
+                            <a href="/assets/lg-install/fd-2.png" data-toggle="lightbox" data-gallery="multiimages"
+                               data-title="Enable Fast Dormancy">
+                                <img src="/assets/lg-install/fd-2.png" class="img-thumbnail"
+                                     alt="Enable Fast Dormancy" width='160' height='130'>
+                            </a>
+                            <a href="/assets/lg-install/fd-3.png" data-toggle="lightbox" data-gallery="multiimages"
+                               data-title="Enable Fast Dormancy">
+                                <img src="/assets/lg-install/fd-3.png" class="img-thumbnail"
+                                     alt="Enable Fast Dormancy" width='160' height='130'>
+                            </a>
+                            <a href="/assets/lg-install/fd-4.png" data-toggle="lightbox" data-gallery="multiimages"
+                               data-title="Enable Fast Dormancy">
+                                <img src="/assets/lg-install/fd-3.png" class="img-thumbnail"
+                                     alt="Enable Fast Dormancy" width='160' height='130'>
+                            </a>
+                            <a href="/assets/lg-install/fd-5.png" data-toggle="lightbox" data-gallery="multiimages"
+                               data-title="Enable Fast Dormancy">
+                                <img src="/assets/lg-install/fd-3.png" class="img-thumbnail"
+                                     alt="Enable Fast Dormancy" width='160' height='130'>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div></br>
+
+        </div></br>
+
+    </div>
+
+    <div class="text-center">
+        <a style="border: solid;" href="/projects/lg-firmwares/"
+           class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">BACK</a>
+
+        <div class="clearfix"></div>
+    </div>
+
 </div>
-<!-- / .section -->
+<!-- / .row -->
 
 <!-- IMEI SECTION -->
 <div class="imei" id="subscribe">
@@ -298,25 +336,8 @@
     <!-- / .container -->
 </div>
 
-<!-- DOWNLOAD FIRMWARES -->
-<div class="section" id="all-download">
-    <div class="container">
-        <div class="row">
-            <h3 id="about" class="heading">DOWNLOAD &amp; Find All Firmwares</h3>
-
-            <p class="heading__sub">
-                If you want to find more specific firmwares to download.<br/>
-                Hit the button and use the search function to identify your ROM. <br> <br>
-                <g:submitButton class="btn btn-primary wow fadeInLeft animated animated" value="GoToDownloads"
-                                name="submit"/>
-            </p>
-
-        </div>
-        <!-- / .container -->
-    </div>
-</div>
-
-<!-- SKILLS -->
+<!-- SKILLS
+    ============================== -->
 <div class="section" id="skills">
     <div class="container">
         <div class="row">
@@ -372,11 +393,11 @@
     <div class="color-overlay">
         <div class="container">
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- DevTester-LG-Index-Bottom -->
+            <!-- DevTester-LG-FD-Bottom -->
             <ins class="adsbygoogle"
                  style="display:block"
                  data-ad-client="ca-pub-1881838157428798"
-                 data-ad-slot="3192336262"
+                 data-ad-slot="4250267068"
                  data-ad-format="auto"></ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
@@ -384,5 +405,6 @@
         </div>
     </div>
 </section>
+
 </body>
 </html>

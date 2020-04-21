@@ -275,8 +275,7 @@
             <div class="col-xs-12">
                 <h3 id="imei" class="heading" data-scrollreveal="enter left after 0s over 1s">Enter your phone
                 IMEI/ESN here:</h3>
-                <g:form url="[action: 'getFirmwareByImei', controller: 'lg']" target="_blank"
-                        class="form-inline form_alt subscribe__form">
+                <g:form controller="lg" class="form-inline form_alt subscribe__form">
                     <label class="sr-only">IMEI</label>
 
                     <div class="form-group">
@@ -285,8 +284,8 @@
                                      pattern="[0-9]{15}"
                                      maxlength="15" name="esn" value="${esn}"/>
                     </div>
-                    <g:submitButton class="btn btn-primary wow fadeInLeft animated animated" value="CHECK"
-                                    name="submit"/>
+                    <g:actionSubmit class="btn btn-primary wow fadeInLeft animated animated" value="CHECK"
+                                    action="getFirmwareByImei"/>
                 </g:form>
                 <br><br>
             </div>

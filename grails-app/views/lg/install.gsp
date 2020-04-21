@@ -515,7 +515,7 @@
                                      pattern="[0-9]{15}"
                                      maxlength="15" name="esn" value="${esn}"/>
                     </div>
-                    <g:actionSubmit class="btn btn-primary wow fadeInLeft animated animated" value="CHECK"
+                    <g:actionSubmit class="btn btn-primary wow fadeInLeft animated animated" value="Submit"
                                     action="getFirmwareByImei"/>
                 </g:form>
                 <br><br>

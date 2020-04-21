@@ -36,7 +36,8 @@ class LgController {
     }
 
     def downloadFirmwares() {
-        //TODO
+        def allFirmwares = Imei.findAll();
+        render(view: 'download', model: [allFirmwares: allFirmwares])
     }
 
 }

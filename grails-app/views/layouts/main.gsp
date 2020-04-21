@@ -29,6 +29,7 @@
     <asset:stylesheet src="css/plugins/owl.theme.css"/>
     <asset:stylesheet src="css/plugins/lightbox.css"/>
     <asset:stylesheet src="css/docs.min.css"/>
+    <asset:stylesheet src="css/dataTables.bootstrap.min.css"/>
     <asset:stylesheet src="fonts/open-iconic/font/css/open-iconic-bootstrap.css"/>
     <asset:stylesheet src="fonts/font-awesome/css/font-awesome.min.css"/>
 
@@ -38,12 +39,6 @@
 
     <!-- CSS Custom -->
     <asset:stylesheet src="css/styles.css"/>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <asset:javascript src="html5shiv.min.js"/>
-    <asset:javascript src="respond.min.js"/>
-    <![endif]-->
 
     <!-- GOOGLE TRACKING -->
     <script type="text/javascript">
@@ -165,9 +160,17 @@
 <asset:javascript src="jquery.peity.min.js"/>
 <asset:javascript src="lightbox.min.js"/>
 <asset:javascript src="plugins/contact.js"/>
+<asset:javascript src="html5shiv.min.js"/>
+<asset:javascript src="respond.min.js"/>
 
 <!-- JS Custom -->
 <asset:javascript src="custom.js"/>
+<asset:javascript src="download.js"/>
+<!-- JS Custom -->
+
+<asset:javascript src="jquery.dataTables.min.js"/>
+<asset:javascript src="dataTables.bootstrap.min.js"/>
+<asset:javascript src="jquery.blockUI.min.js"/>
 
 </body>
 </html>

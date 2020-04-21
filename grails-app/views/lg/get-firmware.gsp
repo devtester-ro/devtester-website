@@ -216,7 +216,7 @@
                                 <td>${thisModel.esn}</td>
                                 <td>${thisModel.suffix}</td>
                                 <td>${thisModel.sw_version}</td>
-                                <td><a href="${thisModel.sw_version}">Download</a></td>
+                                <td><a href="${thisModel.sw_url}">Download</a></td>
                             </tr>
                             </tbody>
                         </g:each>

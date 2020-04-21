@@ -173,7 +173,7 @@
 
                     <div class="features-item__body">
                         <div class="features-item-body__title">
-                            <a target="_blank" href="/projects/lg-firmwares/download.php">All Download Firmwares</a>
+                            <a target="_blank" href="/projects/lg-firmwares/download">All Download Firmwares</a>
                         </div>
 
                         <div class="features-item-body__summary">

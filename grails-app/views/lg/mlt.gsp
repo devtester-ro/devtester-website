@@ -26,7 +26,7 @@
                 <li class="active"><a href="#home">Home</a></li>
                 <li><a href="/projects/lg-firmwares/">LG Firmwares</a></li>
                 <li><a href="#mlt">Disable MLT/LDB</a></li>
-                <li><a target="_blank" href="../../about">Contact Us</a></li>
+                <li><a target="_blank" href="../../about">About</a></li>
                 <li class="hidden-xs">
                     <p class="navbar-text navbar__separator"></p>
                 </li>

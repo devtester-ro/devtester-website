@@ -26,7 +26,7 @@
                 <li class="active"><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#donate">Donate</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li class="hidden-xs">
                     <p class="navbar-text navbar__separator"></p>
                 </li>
@@ -50,7 +50,8 @@
             <div class="col-xs-12">
 
                 <!-- Home heading -->
-                <h1 style="font-size: 50px;" class="heading hero__heading animated fadeInUp">About DevTester.ro</h1>
+                <h1 id="about" style="font-size: 50px;"
+                    class="heading hero__heading animated fadeInUp">About DevTester.ro</h1>
 
                 <!-- Home subheading -->
                 <p style="font-size: 16px;" class="heading__sub hero-heading__sub animated fadeInUp delay_1">
@@ -76,7 +77,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
-                <h3 id="about" class="heading">Donations via PayPal</h3>
+                <h3 class="heading">Donations via PayPal</h3>
 
                 <p class="heading__sub">
 

@@ -26,7 +26,7 @@
                 <li class="active"><a href="#home">Home</a></li>
                 <li><a href="/projects/lg-firmwares/">LG Firmwares</a></li>
                 <li><a href="#install-kdz">Install KDZ</a></li>
-                <li><a href="../../about">Contact Us</a></li>
+                <li><a href="../../about">About</a></li>
                 <li class="hidden-xs">
                     <p class="navbar-text navbar__separator"></p>
                 </li>
@@ -218,7 +218,7 @@
                                        class="html hljs xml">1. Check your device box for the proper <b>Suffix</b>
                             </code></pre>
                             <pre><code style="font-size: 13px;" class="html hljs xml">2. Go to - <a target="_blank"
-                                                                                                    href="/projects/lg-firmwares/download.php">LG Download</a> (just type in Search - your suffix - e.g. <b>"SWS"</b>)
+                                                                                                    href="/projects/lg-firmwares/download">LG Download</a> (just type in Search - your suffix - e.g. <b>"SWS"</b>)
                             </code></pre>
                         </div>
                     </div>

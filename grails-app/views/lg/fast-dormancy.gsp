@@ -26,7 +26,7 @@
                 <li class="active"><a href="#home">Home</a></li>
                 <li><a href="#">LG Firmwares</a></li>
                 <li><a href="#fast-dormancy">Fast Dormancy</a></li>
-                <li><a target="_blank" href="../../about">Contact Us</a></li>
+                <li><a target="_blank" href="../../about">About</a></li>
                 <li class="hidden-xs">
                     <p class="navbar-text navbar__separator"></p>
                 </li>

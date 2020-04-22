@@ -18,7 +18,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">DevTester 3.2</a>
+            <a class="navbar-brand" href="/">DevTester 3.3</a>
         </div>
 
         <div id="navbar" class="collapse navbar-collapse">
@@ -252,10 +252,15 @@
                     <td>Fix LG Firmwares</td>
                     <td>DONE</td>
                 </tr>
-                <tr class="warning">
+                <tr class="success">
                     <td>3.3</td>
                     <td>Cloud ready website</td>
-                    <td>In progress</td>
+                    <td>DONE</td>
+                </tr>
+                <tr class="warning">
+                    <td>3.4</td>
+                    <td>General bug fixes</td>
+                    <td>In Progress</td>
                 </tr>
                 <tr class="info">
                     <td>3.3</td>
@@ -264,7 +269,7 @@
                 </tr>
                 </tbody>
             </table>
-        </div>
+    </div>
     </div>
 </div>
 

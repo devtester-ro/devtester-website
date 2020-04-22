@@ -18,7 +18,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">DevTester 3.2 | LG</a>
+            <a class="navbar-brand" href="/">DevTester 3.3 | LG</a>
         </div>
 
         <div id="navbar" class="collapse navbar-collapse">

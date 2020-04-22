@@ -24,9 +24,9 @@
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right ">
                 <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
                 <li><a href="#donate">Donate</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#changelog">Changelog</a></li>
                 <li class="hidden-xs">
                     <p class="navbar-text navbar__separator"></p>
                 </li>
@@ -41,7 +41,6 @@
         <!--/.nav-collapse -->
     </div>
 </nav>
-
 
 <!-- HOME -->
 <div class="hero hero_agency" id="home">
@@ -71,8 +70,7 @@
 </div>
 <!-- / .home -->
 
-<!-- DONATE
-    ============================== -->
+<!-- DONATE -->
 <div class="section section_alt" id="donate">
     <div class="container">
         <div class="row">
@@ -193,7 +191,7 @@
                 </div>
             </div>
 
-        </div>
+    </div>
         <!-- / .row -->
     </div>
     <!-- / .container -->
@@ -203,7 +201,7 @@
 <!-- CHANGE LOG / ROADMAP -->
 <div class="row">
     <div class="col-xs-12">
-        <h3 class="heading">Changelog / Roadmap</h3>
+        <h3 class="heading" id="changelog">Changelog / Roadmap</h3>
 
         <p class="heading__sub">
 
@@ -254,7 +252,7 @@
                 </tr>
                 <tr class="success">
                     <td>3.3</td>
-                    <td>Cloud ready website</td>
+                    <td>Cloud friendly website</td>
                     <td>DONE</td>
                 </tr>
                 <tr class="warning">
@@ -263,13 +261,23 @@
                     <td>In Progress</td>
                 </tr>
                 <tr class="info">
-                    <td>3.3</td>
+                    <td>3.5</td>
+                    <td>Full cloud compatible</td>
+                    <td>TODO</td>
+                </tr>
+                <tr class="info">
+                    <td>4.0</td>
                     <td>Update Website with Tutorials</td>
-                    <td>ETA - 07.2020</td>
+                    <td>TODO</td>
+                </tr>
+                <tr class="info">
+                    <td>5.0</td>
+                    <td>Production grade website</td>
+                    <td>TODO</td>
                 </tr>
                 </tbody>
             </table>
-    </div>
+        </div>
     </div>
 </div>
 

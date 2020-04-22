@@ -11,10 +11,4 @@
 * PushImage - `docker push levelik/devtester-website:0.1`
 
 ### Changelog
-
-#### [3.3] - 2020-04-22
-- Migrate from PHP to Grails
-- Cloud friendly app
-
-#### [1.0] - 2014-09-01
-- Init commit
+- View - [changelog](https://devtester.ro/about#changelog)

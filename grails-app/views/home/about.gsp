@@ -24,7 +24,7 @@
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right ">
                 <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#about">About Us</a></li>
                 <li><a href="#donate">Donate</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li class="hidden-xs">

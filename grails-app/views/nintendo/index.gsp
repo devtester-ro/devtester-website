@@ -31,6 +31,7 @@
                 <li><a href="#accessories">Accessories</a></li>
                 <li><a href="#buy">Variants</a></li>
                 <li><a href="#latest">Read More</a></li>
+                <li><a href="../../about">About Us</a></li>
                 <li class="hidden-xs">
                     <p class="navbar-text navbar__separator"></p>
                 </li>

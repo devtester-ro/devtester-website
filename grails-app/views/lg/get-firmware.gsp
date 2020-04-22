@@ -26,7 +26,7 @@
                 <li class="active"><a href="#home">Home</a></li>
                 <li><a href="#imei">Imei Firmwares</a></li>
                 <li><a href="#get">Get Firmwares</a></li>
-                <li><a target="_blank" href="../../about">About</a></li>
+                <li><a href="../../about">About Us</a></li>
                 <li class="hidden-xs">
                     <p class="navbar-text navbar__separator"></p>
                 </li>

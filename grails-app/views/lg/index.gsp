@@ -27,6 +27,7 @@
                 <li><a href="#imei">Imei Firmwares</a></li>
                 <li><a href="#all-firmwares">Latest Firmwares</a></li>
                 <li><a href="#all-download">Download Firmwares</a></li>
+                <li><a href="../../about">About Us</a></li>
                 <li class="hidden-xs">
                     <p class="navbar-text navbar__separator"></p>
                 </li>
@@ -65,7 +66,7 @@
                 TOOLS</h2>
                 <a style="border: solid;" href="/projects/lg-firmwares/install"
                    class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">How To Install KDZ</a>
-                <a style="border: solid;" href="https://developers.google.com/android/nexus/images"
+                <a style="border: solid;" target="_blank" href="https://developers.google.com/android/nexus/images"
                    class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Update Nexus Devices</a>
                 <a style="border: solid;" href="/projects/lg-firmwares/drivers"
                    class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">LG Drivers</a>

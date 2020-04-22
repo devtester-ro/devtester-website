@@ -28,7 +28,7 @@
                 <li><a href="#products">Products</a></li>
                 <li><a href="#team">Team</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#about">About Us</a></li>
                 <li class="hidden-xs">
                     <p class="navbar-text navbar__separator"></p>
                 </li>

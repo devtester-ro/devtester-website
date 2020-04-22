@@ -114,10 +114,10 @@ environments:
             dialect: org.hibernate.dialect.MySQL5InnoDBDialect
             driverClassName: com.mysql.cj.jdbc.Driver
             dbCreate: update
-            url: jdbc:mysql://google/grailsgooglecloud?socketFactory=com.google.cloud.sql.mysql.SocketFactory&cloudSqlInstance=inner-topic-174815:us-central1:grailsgooglecloud&useSSL=true
-            username: root
-            password: grailsgooglecloud
-#end::datasourceProduction[]
+            url: '${JDBC_CONNECTION_STRING}'
+            username: '${JDBC_USER}'
+            password: '${JDBC_PASSWORD}'
+            #end::datasourceProduction[]
             properties:
                 jmxEnabled: true
                 initialSize: 5

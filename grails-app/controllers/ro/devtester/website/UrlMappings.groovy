@@ -18,8 +18,11 @@ class UrlMappings {
         "/projects/lg-firmwares/mlt"(view: '/lg/mlt')
         "/projects/nintendo-switch"(view: '/nintendo/index')
         "/projects/lg-firmwares"(controller: 'lg')
+        "/ads.txt"(controller: 'home', action: 'ads')
+        "/robots.txt"(controller: 'home', action: 'robot')
+        "/sitemap.xml"(controller: 'home', action: 'sitemap')
+
         "500"(view: '/error')
         "404"(view: '/notFound')
-        "/ads.txt"(controller: 'home', action: 'adstxt')
     }
 }

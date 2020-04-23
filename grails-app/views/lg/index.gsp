@@ -174,7 +174,7 @@
 
                     <div class="features-item__body">
                         <div class="features-item-body__title">
-                            <a target="_blank" href="/projects/lg-firmwares/download">All Download Firmwares</a>
+                            <g:link target="_blank" action="downloadFirmwares">All Download Firmwares</g:link>
                         </div>
 
                         <div class="features-item-body__summary">

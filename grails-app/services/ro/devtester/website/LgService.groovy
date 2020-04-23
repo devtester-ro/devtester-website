@@ -14,6 +14,8 @@ class LgService {
     @Scheduled(fixedDelay = 21600000L, initialDelay = 1000L)
     def serviceMethod() {
 
+        Latest.executeUpdate("delete Latest")
+
         def list = ['0', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'M', 'N', 'P', 'R', 'S', 'T', 'U', 'V', 'Z']
 
         list.each {
@@ -38,7 +40,7 @@ class LgService {
                     def live_date = records.getElementsByTagName('live_date').item(it as int).childNodes.item(0)?.nodeValue?.toString()
 
                     def firmwares = new Latest(model: model, swversion: swversion, buyer: buyer, region: region, country: country, buyer_name: buyer_name, date: new Date().parse("yyyy-MM-dd", live_date))
-                    firmwares.save()
+                    firmwares.save(flush: true)
                 }
             }
         }

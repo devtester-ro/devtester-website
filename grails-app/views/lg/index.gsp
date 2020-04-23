@@ -276,7 +276,8 @@
             <div class="col-xs-12">
                 <h3 id="imei" class="heading" data-scrollreveal="enter left after 0s over 1s">Enter your phone
                 IMEI/ESN here:</h3>
-                <g:form controller="lg" class="form-inline form_alt subscribe__form">
+                <g:form controller="lg"
+                        class="form-inline form_alt subscribe__form">
                     <label class="sr-only">IMEI</label>
 
                     <div class="form-group">
@@ -285,9 +286,17 @@
                                      pattern="[0-9]{15}"
                                      maxlength="15" name="esn" value="${esn}"/>
                     </div>
+
+                    <div class="btn">
+                        <recaptcha:ifEnabled>
+                            <recaptcha:recaptcha includeScript="false"/>
+                        </recaptcha:ifEnabled>
+                    </div>
+                    <br><br>
                     <g:actionSubmit class="btn btn-primary wow fadeInLeft animated animated" value="Submit"
                                     action="getFirmwareByImei"/>
                 </g:form>
+                <recaptcha:script/>
                 <br><br>
             </div>
         </div>
@@ -297,7 +306,7 @@
 </div>
 
 <!-- DOWNLOAD FIRMWARES -->
-<div class="section" id="all-download">
+<div class=" section " id="all-download">
     <div class="container">
         <div class="row">
             <h3 id="about" class="heading">Find All Firmwares &amp; DOWNLOAD</h3>
@@ -306,7 +315,8 @@
                 If you want to find more specific firmwares to download.<br/>
                 Hit the button and use the search function to identify your ROM. <br> <br>
                 <g:form align="center" controller="lg">
-                    <g:actionSubmit class="btn btn-primary wow fadeInLeft animated animated" value="GoTo Downloads"
+                    <g:actionSubmit class="btn btn-primary wow fadeInLeft animated animated"
+                                    value="GoTo Downloads"
                                     action="downloadFirmwares"/>
                 </g:form>
             </p>
@@ -343,21 +353,24 @@
             <div class="col-xs-6 col-sm-3 col-md-2">
                 <div class="skills__item">
                     <div class="skills-item__title">LG Display</div>
-                    <span class="skills-item__donut" data-peity='{ "fill": ["#C06C84", "#EEE"] }'>10/12</span>
+                    <span class="skills-item__donut"
+                          data-peity='{ "fill": ["#C06C84", "#EEE"] }'>10/12</span>
                 </div>
             </div>
 
             <div class="col-xs-6 col-sm-3 col-md-2">
                 <div class="skills__item">
                     <div class="skills-item__title">LG Chem</div>
-                    <span class="skills-item__donut" data-peity='{ "fill": ["#6C5B7B", "#EEE"] }'>9/12</span>
+                    <span class="skills-item__donut"
+                          data-peity='{ "fill": ["#6C5B7B", "#EEE"] }'>9/12</span>
                 </div>
             </div>
 
             <div class="col-xs-6 col-sm-3 col-md-2">
                 <div class="skills__item">
                     <div class="skills-item__title">LG Uplus</div>
-                    <span class="skills-item__donut" data-peity='{ "fill": ["#355C7D", "#EEE"] }'>8/12</span>
+                    <span class="skills-item__donut"
+                          data-peity='{ "fill": ["#355C7D", "#EEE"] }'>8/12</span>
                 </div>
             </div>
 

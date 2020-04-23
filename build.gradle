@@ -41,6 +41,7 @@ dependencies {
     compile "org.springframework.boot:spring-boot-autoconfigure"
     compile "org.grails:grails-core"
     compile "org.springframework.boot:spring-boot-starter-actuator"
+    compile 'org.grails.plugins:recaptcha:3.2.0'
     provided "org.springframework.boot:spring-boot-starter-jetty"
     compile "org.grails:grails-web-boot"
     compile 'org.grails:grails-datastore-rest-client:4.0.4.RELEASE'

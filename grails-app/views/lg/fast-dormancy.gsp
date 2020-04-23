@@ -315,7 +315,8 @@
             <div class="col-xs-12">
                 <h3 id="imei" class="heading" data-scrollreveal="enter left after 0s over 1s">Enter your phone
                 IMEI/ESN here:</h3>
-                <g:form controller="lg" class="form-inline form_alt subscribe__form">
+                <g:form controller="lg"
+                        class="form-inline form_alt subscribe__form">
                     <label class="sr-only">IMEI</label>
 
                     <div class="form-group">
@@ -324,9 +325,17 @@
                                      pattern="[0-9]{15}"
                                      maxlength="15" name="esn" value="${esn}"/>
                     </div>
+
+                    <div class="btn">
+                        <recaptcha:ifEnabled>
+                            <recaptcha:recaptcha includeScript="false"/>
+                        </recaptcha:ifEnabled>
+                    </div>
+                    <br><br>
                     <g:actionSubmit class="btn btn-primary wow fadeInLeft animated animated" value="Submit"
                                     action="getFirmwareByImei"/>
                 </g:form>
+                <recaptcha:script/>
                 <br><br>
             </div>
         </div>

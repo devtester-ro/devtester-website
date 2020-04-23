@@ -14,7 +14,7 @@ class LgService {
     @Scheduled(fixedDelay = 21600000L, initialDelay = 1000L)
     def serviceMethod() {
 
-        Latest.executeUpdate("delete Latest")
+        Latest.executeUpdate('delete from Latest')
 
         def list = ['0', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'M', 'N', 'P', 'R', 'S', 'T', 'U', 'V', 'Z']
 

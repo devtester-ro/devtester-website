@@ -18,7 +18,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="http://devtester.ro">DevTester 3.3 | LG</a>
+            <a class="navbar-brand" href="/">DevTester| LG</a>
         </div>
 
         <div id="navbar" class="collapse navbar-collapse">
@@ -220,8 +220,8 @@
                         <tr class='warning'>
                             <td>${thisModel.model}</td>
                             <td>${thisModel.suffix}</td>
-                            <td>${thisModel.version}</td>
-                            <td><a href="${thisModel.sw_version}">Download</a></td>
+                            <td>${thisModel.sw_version}</td>
+                            <td><a href="${thisModel.sw_url}">Download</a></td>
                         </tr>
                         </tbody>
                     </g:each>

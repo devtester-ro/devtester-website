@@ -20,7 +20,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">DevTester 3.3 | Nintendo</a>
+            <a class="navbar-brand" href="/">DevTester | Nintendo</a>
         </div>
 
         <div id="navbar" class="collapse navbar-collapse">

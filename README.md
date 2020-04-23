@@ -8,7 +8,7 @@
     
 ### Docker Repo
 * Login - `docker login` - add credentials
-* PushImage - `docker push levelik/devtester-website:0.1`
+* PushImage - `docker push <user>/devtester-website:0.1`
 
 ### Changelog
 - View - [changelog](https://devtester.ro/about#changelog)

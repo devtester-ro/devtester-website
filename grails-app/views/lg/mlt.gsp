@@ -42,8 +42,7 @@
     </div>
 </nav>
 
-<!-- HERO
-    ============================== -->
+<!-- HERO -->
 <div class="hero hero_lg" id="home">
     <div class="container">
         <div class="row">
@@ -65,10 +64,8 @@
 </div>
 <!-- / .hero -->
 
-<!-- GOOGLE ADS
-    ============================== -->
-
-</br>
+<!-- GOOGLE ADS -->
+<br>
 <section class="ads-transparent" data-type="background" data-speed="1">
     <div class="color-overlay">
         <div class="container">
@@ -88,8 +85,7 @@
 
 <div class="section" id="description">
 
-    <!-- ABOUT
-        ============================== -->
+    <!-- ABOUT -->
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
@@ -105,8 +101,7 @@
     <!-- / .container -->
 
 
-    <!-- FEATURES
-        ============================== -->
+    <!-- FEATURES -->
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
@@ -173,12 +168,10 @@
         <!-- / .row -->
     </div>
     <!-- / .container -->
-
 </div>
 <!-- / .section -->
 
-<!-- ABOUT
-    ============================== -->
+<!-- ABOUT -->
 <div class="section section_alt section_download" id="download">
     <div class="container">
         <div class="row">
@@ -200,12 +193,10 @@
                     </div>
                 </div>
             </section>
-        </br>
+            <br>
 
             <div class="container">
-
                 <div class="row" data-scrollreveal="enter left after 0s over 1s">
-
                     <div class="col-lg-6">
                         <div class="item item-1" style="border-bottom: 1px solid #8e8e8e !important;">
                             <p style="margin-bottom: 13px !important;" class="lead"><b>Steps (Android 2.x -
@@ -220,7 +211,7 @@
 
                             <p style="margin-bottom: 13px !important;" class="lead">4. Restart and Enjoy</b></p>
                         </div>
-                    </br>
+                        <br>
 
                         <div class="item item-1" style="border-bottom: 1px solid #8e8e8e !important;">
                             <p style="margin-bottom: 13px !important;" class="lead"><b>Steps (Android 6.x):</b></p>
@@ -254,7 +245,7 @@
             </div>
 
         </div>
-    </br>
+        <br>
     </div>
 
     <div class="text-center">
@@ -267,44 +258,9 @@
 </div>
 <!-- / .row -->
 
-<!-- IMEI SECTION -->
-<div class="imei" id="subscribe">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h3 id="imei" class="heading" data-scrollreveal="enter left after 0s over 1s">Enter your phone
-                IMEI/ESN here:</h3>
-                <g:form controller="lg"
-                        class="form-inline form_alt subscribe__form">
-                    <label class="sr-only">IMEI</label>
+<g:render template="imei"/>
 
-                    <div class="form-group">
-                        <g:textField type="text" class="form-control input-lg"
-                                     placeholder="Type IMEI from Dialer - *#06#" required="" size="40"
-                                     pattern="[0-9]{15}"
-                                     maxlength="15" name="esn" value="${esn}"/>
-                    </div>
-
-                    <div class="btn">
-                        <recaptcha:ifEnabled>
-                            <recaptcha:recaptcha includeScript="false"/>
-                        </recaptcha:ifEnabled>
-                    </div>
-                    <br><br>
-                    <g:actionSubmit class="btn btn-primary wow fadeInLeft animated animated" value="Submit"
-                                    action="getFirmwareByImei"/>
-                </g:form>
-                <recaptcha:script/>
-                <br><br>
-            </div>
-        </div>
-        <!-- / .row -->
-    </div>
-    <!-- / .container -->
-</div>
-
-<!-- SKILLS
-    ============================== -->
+<!-- SKILLS -->
 <div class="section" id="skills">
     <div class="container">
         <div class="row">

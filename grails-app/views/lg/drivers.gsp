@@ -7,8 +7,7 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="71">
 
-<!-- NAVBAR
-    ============================== -->
+<!-- NAVBAR -->
 <nav class="navbar navbar-default navbar-fixed-top js-navbar-top js-toggleClass">
     <div class="container">
         <div class="navbar-header">
@@ -43,8 +42,7 @@
     </div>
 </nav>
 
-<!-- HERO
-    ============================== -->
+<!-- HOME -->
 <div class="hero hero_lg" id="home">
     <div class="container">
         <div class="row">
@@ -64,12 +62,10 @@
     </div>
     <!-- / .container -->
 </div>
-<!-- / .hero -->
+<!-- / .home -->
 
-<!-- GOOGLE ADS
-    ============================== -->
-
-</br>
+<!-- GOOGLE ADS -->
+<br>
 <section class="ads-transparent" data-type="background" data-speed="1">
     <div class="color-overlay">
         <div class="container">
@@ -89,15 +85,14 @@
 
 <div class="section" id="description">
 
-    <!-- ABOUT
-        ============================== -->
+    <!-- ABOUT -->
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
                 <h3 class="heading">Drivers - Info</h3>
 
                 <p class="heading__sub">
-                    Any smartphone needs drivers in order to connect your phone to the PC.</br> Here you can
+                    Any smartphone needs drivers in order to connect your phone to the PC.<br> Here you can
                 find both <b>Windows</b> and <b>MacOS</b> drivers.
                 </p>
             </div>
@@ -107,8 +102,7 @@
     <!-- / .container -->
 
 
-    <!-- FEATURES
-        ============================== -->
+    <!-- FEATURES -->
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
@@ -171,7 +165,6 @@
                 </div>
                 <!-- / .features__item -->
             </div>
-
         </div>
         <!-- / .row -->
     </div>
@@ -180,8 +173,7 @@
 </div>
 <!-- / .section -->
 
-<!-- ABOUT
-    ============================== -->
+<!-- ABOUT -->
 <div class="section section_alt section_download" id="download">
     <div class="container">
         <div class="row">
@@ -203,7 +195,7 @@
                     </div>
                 </div>
             </section>
-        </br>
+            <br>
 
             <div class="container">
                 <div class="table-responsive">
@@ -236,7 +228,7 @@
             </div>
 
         </div>
-    </br>
+        <br>
     </div>
 
     <div class="text-center">
@@ -249,44 +241,9 @@
 </div>
 <!-- / .row -->
 
-<!-- IMEI SECTION -->
-<div class="imei" id="subscribe">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h3 id="imei" class="heading" data-scrollreveal="enter left after 0s over 1s">Enter your phone
-                IMEI/ESN here:</h3>
-                <g:form controller="lg"
-                        class="form-inline form_alt subscribe__form">
-                    <label class="sr-only">IMEI</label>
+<g:render template="imei"/>
 
-                    <div class="form-group">
-                        <g:textField type="text" class="form-control input-lg"
-                                     placeholder="Type IMEI from Dialer - *#06#" required="" size="40"
-                                     pattern="[0-9]{15}"
-                                     maxlength="15" name="esn" value="${esn}"/>
-                    </div>
-
-                    <div class="btn">
-                        <recaptcha:ifEnabled>
-                            <recaptcha:recaptcha includeScript="false"/>
-                        </recaptcha:ifEnabled>
-                    </div>
-                    <br><br>
-                    <g:actionSubmit class="btn btn-primary wow fadeInLeft animated animated" value="Submit"
-                                    action="getFirmwareByImei"/>
-                </g:form>
-                <recaptcha:script/>
-                <br><br>
-            </div>
-        </div>
-        <!-- / .row -->
-    </div>
-    <!-- / .container -->
-</div>
-
-<!-- SKILLS
-    ============================== -->
+<!-- SKILLS -->
 <div class="section" id="skills">
     <div class="container">
         <div class="row">

@@ -84,7 +84,7 @@
 <!-- GOOGLE ADS
     ============================== -->
 
-</br>
+<br>
 <section class="ads-transparent" data-type="background" data-speed="1">
     <div class="color-overlay">
         <div class="container">
@@ -259,7 +259,7 @@
         </div>
         <!-- / .row -->
     </div>
-</br> <!-- / .container -->
+    <br> <!-- / .container -->
     <section class="ads-transparent" data-type="background" data-speed="1">
         <div class="color-overlay">
             <div class="container">
@@ -449,7 +449,7 @@
                             alt="Best Buy"
                             src="https://s12emagst.akamaized.net/products/4971/4970686/images/res_fd6d31a2c65982102809b6ec9d4d73b5_450x450_l321.jpg">
                     </a>
-                </div></br></br>
+                </div><br><br>
 
             </div>
         </div>
@@ -502,14 +502,14 @@
                 </div>
             </div>
 
-        </div>
+    </div>
         <!-- / .row -->
     </div>
     <!-- / .container -->
 </div>
 <!-- / .section -->
 
-</br></br> <!-- / .section -->
+<br><br> <!-- / .section -->
 
 
 <div class="container">

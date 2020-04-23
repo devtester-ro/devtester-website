@@ -187,7 +187,6 @@
                 </div>
                 <!-- / .features__item -->
             </div>
-
         </div>
         <!-- / .container -->
     </div>
@@ -202,7 +201,7 @@
             <h3 id="all-firmwares" class="heading">Latest Firmwares</h3>
 
             <p class="heading__sub">
-                Updated every <b>6 hours</b> this is the most recent LG Firmware releases.</br> Links can be found
+                Updated every <b>6 hours</b> this is the most recent LG Firmware releases.<br> Links can be found
             in <b>All Firmwares Download</b> section, selecting a <b>Country</b> from below or checking via <b>IMEI/ESN</b>.
             </p>
 
@@ -213,9 +212,7 @@
                 <br>
 
                 <div class="table-responsive">
-
                     <table class='table table-inverse table-striped table-bordered table-hover' cellspacing='0'>
-
                         <thead>
                         <tr>
                             <th class='align'>MODEL</th>
@@ -224,7 +221,6 @@
                             <th class='align'>LIVE DATE</th>
                         </tr>
                         </thead>
-
                         <g:each in="${latestFirmwares}" var="thisModel">
                             <tbody class='searchable'>
                             <g:if test="${thisModel.date == new Date().parse("yyyy-MM-dd", new Date().format("yyyy-MM-dd"))}">
@@ -240,12 +236,9 @@
                             </tr>
                             </tbody>
                         </g:each>
-
                     </table>
-
                 </div>
             </div>
-
         </div>
         <!-- / .row -->
     </div>
@@ -269,41 +262,7 @@
 </div>
 <!-- / .section -->
 
-<!-- IMEI SECTION -->
-<div class="imei" id="subscribe">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h3 id="imei" class="heading" data-scrollreveal="enter left after 0s over 1s">Enter your phone
-                IMEI/ESN here:</h3>
-                <g:form controller="lg"
-                        class="form-inline form_alt subscribe__form">
-                    <label class="sr-only">IMEI</label>
-
-                    <div class="form-group">
-                        <g:textField type="text" class="form-control input-lg"
-                                     placeholder="Type IMEI from Dialer - *#06#" required="" size="40"
-                                     pattern="[0-9]{15}"
-                                     maxlength="15" name="esn" value="${esn}"/>
-                    </div>
-
-                    <div class="btn">
-                        <recaptcha:ifEnabled>
-                            <recaptcha:recaptcha includeScript="false"/>
-                        </recaptcha:ifEnabled>
-                    </div>
-                    <br><br>
-                    <g:actionSubmit class="btn btn-primary wow fadeInLeft animated animated" value="Submit"
-                                    action="getFirmwareByImei"/>
-                </g:form>
-                <recaptcha:script/>
-                <br><br>
-            </div>
-        </div>
-        <!-- / .row -->
-    </div>
-    <!-- / .container -->
-</div>
+<g:render template="imei"/>
 
 <!-- DOWNLOAD FIRMWARES -->
 <div class=" section " id="all-download">

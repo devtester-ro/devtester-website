@@ -149,28 +149,27 @@
     </footer>
 </div> <!-- / .wrapper -->
 
-<!-- JS -->
-<asset:javascript src="jquery.min.js"/>
-<asset:javascript src='tether.min.js'/>
-<asset:javascript src="bootstrap.min.js"/>
-<asset:javascript src="plugins/smoothscroll.js"/>
-<asset:javascript src="plugins/jquery.waypoints.min.js"/>
-<asset:javascript src="wow.min.js"/>
-<asset:javascript src="owl.carousel.min.js"/>
-<asset:javascript src="jquery.peity.min.js"/>
-<asset:javascript src="lightbox.min.js"/>
-<asset:javascript src="plugins/contact.js"/>
-<asset:javascript src="html5shiv.min.js"/>
-<asset:javascript src="respond.min.js"/>
+<!-- JS Cloud -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.3/js/tether.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/peity/3.2.1/jquery.peity.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.66.0-2013.10.09/jquery.blockUI.min.js"></script>
+<!-- JS Cloud -->
 
-<!-- JS Custom -->
-<asset:javascript src="custom.js"/>
-<asset:javascript src="download.js"/>
-<!-- JS Custom -->
-
+<!-- JS Local -->
 <asset:javascript src="jquery.dataTables.min.js"/>
 <asset:javascript src="dataTables.bootstrap.min.js"/>
-<asset:javascript src="jquery.blockUI.min.js"/>
-
+<asset:javascript src="wow.min.js"/>
+<asset:javascript src="owl.carousel.min.js"/>
+<asset:javascript src="contact.js"/>
+<asset:javascript src="custom.js"/>
+<asset:javascript src="download.js"/>
+<!-- JS Local -->
 </body>
 </html>

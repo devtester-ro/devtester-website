@@ -554,7 +554,7 @@
                 </div>
             </div>
 
-        </div> <!-- / .row -->
+    </div> <!-- / .row -->
     </div> <!-- / .container -->
 </div> <!-- / .section -->
 
@@ -564,7 +564,7 @@
         <div class="row">
             <div class="col-xs-12">
 
-                <h3 class="heading"></h3></br>
+                <h3 class="heading"></h3><br>
 
                 <form class="form-inline form_alt subscribe__form">
                     <section class="ads-transparent" data-type="background" data-speed="1">

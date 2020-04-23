@@ -55,9 +55,9 @@
                 <!-- Home subheading -->
                 <p style="font-size: 16px;" class="heading__sub hero-heading__sub animated fadeInUp delay_1">
                     DevTester is a site built for Automation. It's a free open source place were you can learn to
-                    make Web Testing / Phone Testing / Security Testing.</br>
+                    make Web Testing / Phone Testing / Security Testing.<br>
                     Aside from the main purpose I am making stand-alone projects in order to cover scenarios on
-                    Automation Testing.</br>
+                    Automation Testing.<br>
                     Some Projects: LG Firmwares (Updates for LG Devices) | Free WebSites models for bachelor's
                     degree | etc.
                 </p>

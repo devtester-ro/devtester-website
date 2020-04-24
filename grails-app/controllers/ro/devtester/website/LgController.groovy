@@ -33,7 +33,7 @@ class LgController {
             if (!recaptchaService.verifyAnswer(session, request.getRemoteAddr(), params)) {
                 recaptchaOK = false
             }
-            if (true) {
+            if (recaptchaOK) {
                 recaptchaService.cleanUp(session)
                 lgService.storeAndGetFirmwareByImei(params?.esn)
                 def imei = Imei.findAllByEsn(params?.esn)

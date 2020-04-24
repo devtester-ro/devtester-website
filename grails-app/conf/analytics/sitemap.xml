@@ -1,53 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-<url>
-<loc>http://devtester.ro/</loc>
-<changefreq>daily</changefreq>
-</url>
-<url>
-    <loc>http://devtester.ro/projects/lg-firmwares</loc>
-<changefreq>daily</changefreq>
-</url>
-<url>
-    <loc>http://devtester.ro/projects/lg-firmwares-download</loc>
-<changefreq>daily</changefreq>
-</url>
-<url>
-    <loc>http://devtester.ro/about</loc>
-<changefreq>daily</changefreq>
-</url>
-<url>
-    <loc>http://www.devtester.ro/about</loc>
-<changefreq>daily</changefreq>
-</url>
-<url>
-<loc>http://www.devtester.ro/</loc>
-<changefreq>daily</changefreq>
-</url>
-<url>
-    <loc>http://www.devtester.ro/projects/lg-firmwares-install</loc>
-<changefreq>daily</changefreq>
-</url>
-<url>
-    <loc>http://www.devtester.ro/projects/lg-firmwares</loc>
-<changefreq>daily</changefreq>
-</url>
-<url>
-    <loc>http://devtester.ro/projects/lg-firmwares-install</loc>
-<changefreq>daily</changefreq>
-</url>
-<url>
-    <loc>http://devtester.ro/projects/lg-firmwares-download</loc>
-<changefreq>daily</changefreq>
-</url>
-<url>
-<loc>http://devtester.ro/projects/nintendo-switch/</loc>
-<changefreq>daily</changefreq>
-</url>
+    <url>
+        <loc>http://devtester.ro/</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://devtester.ro/projects/lg-firmwares</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://devtester.ro/projects/lg-firmwares/install</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://devtester.ro/projects/lg-firmwares/drivers</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://devtester.ro/projects/lg-firmwares/fast-dormancy</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://devtester.ro/projects/nintendo-switch</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://devtester.ro/about</loc>
+        <changefreq>daily</changefreq>
+    </url>
+
+    <!-- www urls -->
+    <url>
+        <loc>http://www.devtester.ro/</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://www.devtester.ro/projects/lg-firmwares</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://www.devtester.ro/projects/lg-firmwares/install</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://www.devtester.ro/projects/lg-firmwares/drivers</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://www.devtester.ro/projects/lg-firmwares/fast-dormancy</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://www.devtester.ro/projects/nintendo-switch</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://www.devtester.ro/about</loc>
+        <changefreq>daily</changefreq>
+    </url>
 </urlset>

@@ -1,7 +1,4 @@
 User-agent: *
-Disallow: /services/
-Disallow: /services/functions/
-Disallow: /services/results-xml/
 Disallow: /js/
 Disallow: /img/
 Disallow: /images/
@@ -10,7 +7,3 @@ Disallow: /css/
 Disallow: /assets/
 Disallow: /less/
 Disallow: /ico/
-Disallow: /payu/
-Disallow: /nets/
-Disallow: /aws/
-Disallow: /demo/

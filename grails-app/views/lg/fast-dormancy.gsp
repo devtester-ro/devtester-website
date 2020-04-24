@@ -299,7 +299,7 @@
 </div>
 <!-- / .row -->
 
-<g:render template="imei"/>
+<g:render template="/lg/imei"/>
 
 <!-- SKILLS -->
 <div class="section" id="skills">

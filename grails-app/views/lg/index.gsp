@@ -261,7 +261,7 @@
 </div>
 <!-- / .section -->
 
-<g:render template="imei"/>
+<g:render template="/lg/imei"/>
 
 <!-- DOWNLOAD FIRMWARES -->
 <div class=" section " id="all-download">

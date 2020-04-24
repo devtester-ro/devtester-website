@@ -36,6 +36,7 @@ class UrlMappings {
         "/projects/lg-firmwares/fast-dormancy.php"(redirect: "/projects/lg-firmwares/fast-dormancy")
         "/projects/lg-firmwares/country-selection.php"(redirect: "/projects/lg-firmwares")
         "/projects/lg-firmwares/country.php"(redirect: "/projects/lg-firmwares")
+        "/projects/lg-firmwares/wallpapers.php"(redirect: "/projects/lg-firmwares")
         "/projects/services/imei.php"(redirect: "/projects/lg-firmwares#imei")
         "/projects/services/get-firmwares.php"(redirect: "/projects/lg-firmwares#imei")
         "/projects/nintendo-switch/index.php"(redirect: "/projects/nintendo-switch")

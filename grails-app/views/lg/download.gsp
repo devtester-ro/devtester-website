@@ -25,6 +25,7 @@
             <ul class="nav navbar-nav navbar-right ">
                 <li class="active"><a href="#home">Home</a></li>
                 <li><a href="#imei">Imei Firmwares</a></li>
+                <li><a href="#description">Info Firmwares</a></li>
                 <li><a href="#download">Download Firmwares</a></li>
                 <li><a href="../../about">About Us</a></li>
                 <li class="hidden-xs">

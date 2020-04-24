@@ -43,8 +43,7 @@
     </div>
 </nav>
 
-
-<!-- HOME-->
+<!-- HOME -->
 <div class="hero hero_lg" id="home">
     <div class="container">
         <div class="row">

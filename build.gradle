@@ -12,7 +12,7 @@ buildscript {
     }
 }
 
-version "0.1"
+version "3.3"
 group "ro.devtester.website"
 
 apply plugin: "eclipse"

@@ -32,6 +32,7 @@
     <asset:stylesheet src="css/dataTables.bootstrap.min.css"/>
     <asset:stylesheet src="fonts/open-iconic/font/css/open-iconic-bootstrap.css"/>
     <asset:stylesheet src="fonts/font-awesome/css/font-awesome.min.css"/>
+    <asset:stylesheet src="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css"/>
 
     <!-- Google Fonts -->
     <asset:stylesheet src="google-font-1.css"/>
@@ -150,7 +151,7 @@
 </div> <!-- / .wrapper -->
 
 <!-- JS Cloud -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.3/js/tether.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
@@ -159,12 +160,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/js/jquery.dataTables.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/js/dataTables.bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.66.0-2013.10.09/jquery.blockUI.min.js"></script>
 <!-- JS Cloud -->
 
 <!-- JS Local -->
-<asset:javascript src="jquery.dataTables.min.js"/>
-<asset:javascript src="dataTables.bootstrap.min.js"/>
 <asset:javascript src="wow.min.js"/>
 <asset:javascript src="owl.carousel.min.js"/>
 <asset:javascript src="contact.js"/>

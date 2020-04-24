@@ -13,7 +13,7 @@ class LgController {
         try {
             use(TimeCategory) {
                 def acceptedFormat = "yyyy-MM-dd"
-                def date = new Date() - 4.weeks
+                def date = new Date() - 6.weeks
                 def dateFormatted = date.format(acceptedFormat)
 
                 def latestFirmwares = Latest.findAllByDateGreaterThan(new Date().parse(acceptedFormat, dateFormatted), [sort: 'date', order: 'desc'])

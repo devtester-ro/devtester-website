@@ -31,7 +31,6 @@
                 <li><a href="#accessories">Accessories</a></li>
                 <li><a href="#buy">Variants</a></li>
                 <li><a href="#latest">Read More</a></li>
-                <li><a href="../../about">About Us</a></li>
                 <li class="hidden-xs">
                     <p class="navbar-text navbar__separator"></p>
                 </li>
@@ -64,11 +63,11 @@
                     All the good news are <b>Here</b>. Everything that you need to know about <b>Nintendo Switch</b>!
                 </p>
 
-                <a style="border: solid;" href="#"
+                <a style="border: solid;" href="#latest"
                    class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">News</a>
-                <a style="border: solid;" href="#"
+                <a style="border: solid;" href="#latest"
                    class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Reviews</a>
-                <a style="border: solid;" href="#"
+                <a style="border: solid;" href="#latest"
                    class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Videos</a>
                 <a style="border: solid;" href="#description"
                    class="hero__btn btn btn-lg btn-link animated fadeInUp delay_2">Find out more</a>

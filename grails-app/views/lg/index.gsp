@@ -174,7 +174,7 @@
 
                     <div class="features-item__body">
                         <div class="features-item-body__title">
-                            <g:link target="_blank" action="downloadFirmwares">All Download Firmwares</g:link>
+                            <a href="#all-download">All Download Firmwares</a>
                         </div>
 
                         <div class="features-item-body__summary">

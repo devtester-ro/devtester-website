@@ -203,7 +203,7 @@
                     <h1>We are processing your request. Please be patient.</h1>
                 </div>
 
-                <table id="download-new" class='table table-striped table-bordered' cellspacing='0'>
+                <table id="download-table" class='table table-striped table-bordered' cellspacing='0'>
                     <thead>
                     <tr>
                         <th class='align'>MODEL</th>
@@ -211,18 +211,18 @@
                         <th class='align'>VERSION</th>
                         <th class='align'>URL</th>
                     </tr>
-                <thead>
-
+                    </thead>
+                    <tbody>
                     <g:each in="${allFirmwares}" var="thisModel">
-                        <tbody>
                         <tr class='warning'>
                             <td>${thisModel.model}</td>
                             <td>${thisModel.suffix}</td>
                             <td>${thisModel.sw_version}</td>
-                            <td><a href="${thisModel.sw_url}">Download</a></td>
+                            <td><a href="${thisModel.sw_url.replace("http://lgegdmswdl.s.llnwi.net/dn/downloader.dev", "http://tool.lime.gdms.lge.com/dn/downloader.dev")}">Download</a>
+                            </td>
                         </tr>
-                        </tbody>
                     </g:each>
+                    </tbody>
                 </table>
             </div>
         </div>

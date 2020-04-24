@@ -58,7 +58,6 @@
         ga('create', 'UA-55370145-1', 'auto');
         ga('send', 'pageview');
     </script>
-
     <!-- GOOGLE PAGE ADS -->
     <script data-ad-client="ca-pub-1881838157428798" async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -70,14 +69,11 @@
 
 <!-- WRAPPER -->
 <div class="wrapper">
-
     <div class="sidebar">
         <div class="sidebar__wrapper">
-
             <div class="sidebar__close js-toggle-sidebar visible-xs">
                 <span class="oi oi-x"></span>
             </div>
-
             <h4 class="sidebar__heading">
                 Projects
             </h4>
@@ -85,7 +81,6 @@
                 <li><a href="/projects/lg-firmwares">LG Firmwares</a></li>
                 <li><a href="/projects/nintendo-switch/">Nintendo Switch</a></li>
             </ul>
-
             <h4 class="sidebar__heading">
                 Tutorials
             </h4>
@@ -94,7 +89,6 @@
                 <li><a href="#">Performance</a></li>
                 <li><a href="#">Security</a></li>
             </ul>
-
             <h4 class="sidebar__heading">
                 Quick Links
             </h4>
@@ -122,7 +116,10 @@
             <div class="row">
                 <div class="col-sm-6">
                     &copy; 2014-<g:formatDate format="yyyy" date="${new Date()}"/> <a
-                        href="http://ro.linkedin.com/in/ipetcu/">DevTester.ro</a>. All Rights Reserved.
+                        href="http://ro.linkedin.com/in/ipetcu/">DevTester.ro</a>. All Rights Reserved. <br>
+                    Donations <g:link
+                            uri="https://etherscan.io/address/0x4c085efa9896bfb54d28f4aef97bae25091bc347"
+                            target="_blank">0x4c085efa9896bfb54d28f4aef97bae25091bc347</g:link>
                 </div>
 
                 <div class="col-sm-6">

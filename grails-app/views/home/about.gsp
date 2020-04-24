@@ -75,7 +75,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
-                <h3 class="heading">Donations via PayPal</h3>
+                <h3 class="heading">Donations</h3>
 
                 <p class="heading__sub">
 
@@ -120,7 +120,13 @@
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
                          height="1">
                 </form>
-            </p>
+
+                <div class="heading__sub">
+                    Ethereum - <g:link
+                        uri="https://etherscan.io/address/0x4c085efa9896bfb54d28f4aef97bae25091bc347">0x4c085efa9896bfb54d28f4aef97bae25091bc347</g:link><br>
+                    Bitcoin - <g:link
+                            uri="https://www.blockchain.com/btc/address/39pMQ4xkRYY8osR8SncEbSn3TSbCvVnwBi">39pMQ4xkRYY8osR8SncEbSn3TSbCvVnwBi</g:link>
+                </div>
             </div>
         </div>
         <!-- / .row -->
@@ -175,13 +181,13 @@
                 </div>
             </div>
 
-            <div class="col-xs-6 col-sm-3 col-md-2">
-                <div class="skills__item">
-                    <div class="skills-item__title">Twitter - <a href="https://twitter.com/devtesterro">devtester</a>
-                    </div>
-                    <span class="skills-item__donut" data-peity='{ "fill": ["#6C5B7B", "#EEE"] }'>11/12</span>
+        <div class="col-xs-6 col-sm-3 col-md-2">
+            <div class="skills__item">
+                <div class="skills-item__title">Twitter - <a href="https://twitter.com/devtesterro">devtester</a>
                 </div>
+                <span class="skills-item__donut" data-peity='{ "fill": ["#6C5B7B", "#EEE"] }'>11/12</span>
             </div>
+        </div>
 
         <div class="col-xs-6 col-sm-3 col-md-2">
             <div class="skills__item">
@@ -255,7 +261,7 @@
                     <td>Cloud friendly website</td>
                     <td>DONE</td>
                 </tr>
-                <tr class="info">
+                <tr class="success">
                     <td>3.4</td>
                     <td>General bug fixes</td>
                     <td>DONE</td>

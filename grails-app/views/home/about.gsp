@@ -183,13 +183,13 @@
                 </div>
             </div>
 
-            <div class="col-xs-6 col-sm-3 col-md-2">
-                <div class="skills__item">
-                    <div class="skills-item__title">Youtube - <a
-                            href="https://www.youtube.com/channel/UCbqx1-8VTRAWYCmwZ3C2atg">channel</a></div>
-                    <span class="skills-item__donut" data-peity='{ "fill": ["#355C7D", "#EEE"] }'>11/12</span>
-                </div>
+        <div class="col-xs-6 col-sm-3 col-md-2">
+            <div class="skills__item">
+                <div class="skills-item__title">Youtube - <a
+                        href="https://www.youtube.com/channel/UCbqx1-8VTRAWYCmwZ3C2atg">channel</a></div>
+                <span class="skills-item__donut" data-peity='{ "fill": ["#355C7D", "#EEE"] }'>11/12</span>
             </div>
+        </div>
 
     </div>
         <!-- / .row -->
@@ -255,10 +255,10 @@
                     <td>Cloud friendly website</td>
                     <td>DONE</td>
                 </tr>
-                <tr class="warning">
+                <tr class="info">
                     <td>3.4</td>
                     <td>General bug fixes</td>
-                    <td>In Progress</td>
+                    <td>DONE</td>
                 </tr>
                 <tr class="info">
                     <td>3.5</td>

@@ -29,7 +29,9 @@ class UrlMappings {
         //old site links redirects
         "/index.php"(redirect: "/")
         "/about.php"(redirect: "/about")
+        "/projects/lg-firmwares-download.php"(redirect: "/projects/lg-firmwares")
         "/projects/lg-firmwares/index.php"(redirect: "/projects/lg-firmwares")
+        "/projects/lg-firmwares/drivers.php"(redirect: "/projects/lg-firmwares/drivers")
         "/projects/lg-firmwares/download.php"(redirect: "/projects/lg-firmwares#all-download")
         "/projects/lg-firmwares/install.php"(redirect: "/projects/lg-firmwares/install")
         "/projects/lg-firmwares/mlt.php"(redirect: "/projects/lg-firmwares/mlt")

@@ -26,6 +26,20 @@ class UrlMappings {
         "/nortonsw_53759460-f70e-0.html"(controller: 'home', action: 'norton')
         "/google68b5fbb6a8149f4d.html"(controller: 'home', action: 'googleSiteVerify')
 
+        //old site links redirects
+        "/index.php"(redirect: "/")
+        "/about.php"(redirect: "/about")
+        "/projects/lg-firmwares/index.php"(redirect: "/projects/lg-firmwares")
+        "/projects/lg-firmwares/download.php"(redirect: "/projects/lg-firmwares#all-download")
+        "/projects/lg-firmwares/install.php"(redirect: "/projects/lg-firmwares/install")
+        "/projects/lg-firmwares/mlt.php"(redirect: "/projects/lg-firmwares/mlt")
+        "/projects/lg-firmwares/fast-dormancy.php"(redirect: "/projects/lg-firmwares/fast-dormancy")
+        "/projects/lg-firmwares/country-selection.php"(redirect: "/projects/lg-firmwares")
+        "/projects/lg-firmwares/country.php"(redirect: "/projects/lg-firmwares")
+        "/projects/services/imei.php"(redirect: "/projects/lg-firmwares#imei")
+        "/projects/services/get-firmwares.php"(redirect: "/projects/lg-firmwares#imei")
+        "/projects/nintendo-switch/index.php"(redirect: "/projects/nintendo-switch")
+
         "500"(view: '/error')
         "404"(view: '/notFound')
     }

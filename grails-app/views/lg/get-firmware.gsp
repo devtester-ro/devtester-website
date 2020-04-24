@@ -116,9 +116,7 @@
                         </div>
 
                         <div class="features-item-body__summary">
-                            This firmwares are always updated from LG Servers - <b>Last Update on: <g:formatDate
-                                format="yyyy-MM-dd" date="${new Date()}"/><span>
-                        </span></b>
+                            This firmwares are always updated from LG Servers
                         </div>
                     </div>
                     <!-- / .features-item__body -->

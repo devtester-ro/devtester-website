@@ -42,7 +42,6 @@ dependencies {
     compile "org.grails:grails-core"
     compile "org.springframework.boot:spring-boot-starter-actuator"
     compile 'org.grails.plugins:recaptcha:3.2.0'
-    provided "org.springframework.boot:spring-boot-starter-jetty"
     compile "org.grails:grails-web-boot"
     compile 'org.grails:grails-datastore-rest-client:4.0.4.RELEASE'
     compile "org.grails:grails-logging"
@@ -61,7 +60,9 @@ dependencies {
     compile "org.grails.plugins:gsp"
     compile 'com.google.cloud:google-cloud-storage:1.2.3'
     console "org.grails:grails-console"
+    compile "org.grails.plugins:mail:3.0.0"
     profile "org.grails.profiles:web"
+    provided "org.springframework.boot:spring-boot-starter-jetty"
     runtime "org.glassfish.web:el-impl:2.1.2-b03"
     runtime "com.h2database:h2"
     runtime "org.apache.tomcat:tomcat-jdbc"

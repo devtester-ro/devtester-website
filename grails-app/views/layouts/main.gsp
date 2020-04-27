@@ -165,7 +165,6 @@
 <!-- JS Local -->
 <asset:javascript src="wow.min.js"/>
 <asset:javascript src="owl.carousel.min.js"/>
-<asset:javascript src="contact.js"/>
 <asset:javascript src="custom.js"/>
 <asset:javascript src="download.js"/>
 <!-- JS Local -->

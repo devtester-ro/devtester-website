@@ -547,12 +547,12 @@
                 </div>
             </div>
 
-            <div class="col-xs-6 col-sm-3 col-md-2">
-                <div class="skills__item">
-                    <div class="skills-item__title">SECURITY</div>
-                    <span class="skills-item__donut" data-peity='{ "fill": ["#355C7D", "#EEE"] }'>8/12</span>
-                </div>
+        <div class="col-xs-6 col-sm-3 col-md-2">
+            <div class="skills__item">
+                <div class="skills-item__title">SECURITY</div>
+                <span class="skills-item__donut" data-peity='{ "fill": ["#355C7D", "#EEE"] }'>8/12</span>
             </div>
+        </div>
 
     </div> <!-- / .row -->
     </div> <!-- / .container -->
@@ -610,58 +610,49 @@
             <!-- Alert message -->
             <div class="alert contact-form__alert" id="form_message" role="alert"></div>
 
-            <!-- Contact form -->
-            <!-- Redo contact form with Grails / Groovy -->
-            <form role="form" class="contact__form" id="form_sendemail">
-
+        <!-- Contact form -->
+            <g:form role="form" class="contact__form" controller="mail">
                 <div class="row">
                     <div class="col-sm-6">
-
                         <!-- Email -->
                         <div class="form-group">
                             <label for="email" class="sr-only">Your email address</label>
-                            <input type="email" name="email" class="form-control" id="email" placeholder="E-mail">
+                            <g:textField class="form-control" name="email" placeholder="E-mail" value="${email}"/>
                             <span class="help-block"></span>
                         </div>
-
                         <!-- Name -->
                         <div class="form-group">
                             <label for="name" class="sr-only">Your name</label>
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Full Name">
+                            <g:textField name="name" class="form-control" id="name" placeholder="Full Name"
+                                         value="${name}"/>
                             <span class="help-block"></span>
                         </div>
-
                         <!-- reCAPTCHA -->
-                        <div class="form-group" id="form-captcha">
-                            <div class="g-recaptcha" data-sitekey="6LcL5AwTAAAAALQ2qXPlpvGS1I4AZqUfSfYijFRS"></div>
-                            <span class="help-block"></span>
-                        </div>
+                        <recaptcha:ifEnabled>
+                            <recaptcha:recaptcha includeScript="false"/>
+                        </recaptcha:ifEnabled>
                         <!-- /reCAPTCHA -->
-
                     </div>
 
                     <div class="col-sm-6">
-
                         <!-- Message -->
                         <div class="form-group">
                             <label for="message" class="sr-only">Your message</label>
-                            <textarea name="message" class="form-control" rows="9" id="message"
-                                      placeholder="Message"></textarea>
+                            <g:textArea name="message" class="form-control" rows="9" value="${message}"
+                                        placeholder="Message"/>
                             <span class="help-block"></span>
                         </div>
                     </div>
-
                 </div> <!-- / .row -->
-
                 <div class="text-center">
-                    <button type="submit" class="btn btn-primary">
-                        Send message
-                    </button>
+                    <g:actionSubmit class="btn btn-primary"
+                                    value="Send message"
+                                    action="sendMail"/>
 
                     <div class="clearfix"></div>
                 </div>
-
-            </form>
+            </g:form>
+            <recaptcha:script/>
         </div>
     </div> <!-- / .row -->
 </div> <!-- / .container -->

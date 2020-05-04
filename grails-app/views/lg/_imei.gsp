@@ -17,6 +17,9 @@
                     </div>
 
                     <div class="btn">
+                        Crypto.com - <g:link
+                                uri="https://platinum.crypto.com/r/dnwq25ptdh"
+                                target="_blank">Support me and get free $50 USD</g:link>
                         <recaptcha:ifEnabled>
                             <recaptcha:recaptcha includeScript="false"/>
                         </recaptcha:ifEnabled>

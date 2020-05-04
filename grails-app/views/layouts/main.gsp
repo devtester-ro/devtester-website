@@ -93,6 +93,7 @@
                 Quick Links
             </h4>
             <ul class="sidebar__menu">
+                <li><a target="_blank" href="https://platinum.crypto.com/r/dnwq25ptdh">Crypto Wallet</a></li>
                 <li><a target="_blank" href="http://www.thucydides.info/">Serenity Framework</a></li>
                 <li><a target="_blank" href="https://cucumber.io/">Cucumber</a></li>
                 <li><a target="_blank" href="http://www.gebish.org/">Gebish</a></li>
@@ -119,7 +120,10 @@
                         href="http://ro.linkedin.com/in/ipetcu/">DevTester.ro</a>. All Rights Reserved. <br>
                     Donations <g:link
                             uri="https://etherscan.io/address/0x4c085efa9896bfb54d28f4aef97bae25091bc347"
-                            target="_blank">0x4c085efa9896bfb54d28f4aef97bae25091bc347</g:link>
+                            target="_blank">0x4c085efa9896bfb54d28f4aef97bae25091bc347</g:link> <br>
+                    Crypto.com - <g:link
+                            uri="https://platinum.crypto.com/r/dnwq25ptdh"
+                            target="_blank">Support me and get free $50 USD</g:link>
                 </div>
 
                 <div class="col-sm-6">

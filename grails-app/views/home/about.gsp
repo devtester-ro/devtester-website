@@ -79,6 +79,18 @@
 
                 <p class="heading__sub">
 
+                <div class="heading__sub">
+                    Crypto.com - <g:link
+                        uri="https://platinum.crypto.com/r/dnwq25ptdh"
+                        target="_blank">Support me and get free $50 USD</g:link><br>
+                    Ethereum - <g:link
+                        uri="https://etherscan.io/address/0x4c085efa9896bfb54d28f4aef97bae25091bc347"
+                        target="_blank">0x4c085efa9896bfb54d28f4aef97bae25091bc347</g:link><br>
+                    Bitcoin - <g:link
+                            uri="https://www.blockchain.com/btc/address/39pMQ4xkRYY8osR8SncEbSn3TSbCvVnwBi"
+                            target="_blank">39pMQ4xkRYY8osR8SncEbSn3TSbCvVnwBi</g:link>
+                </div><br>
+
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_xclick">
                     <input type="hidden" name="business" value="levelik@gmail.com">
@@ -120,13 +132,6 @@
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
                          height="1">
                 </form>
-
-                <div class="heading__sub">
-                    Ethereum - <g:link
-                        uri="https://etherscan.io/address/0x4c085efa9896bfb54d28f4aef97bae25091bc347">0x4c085efa9896bfb54d28f4aef97bae25091bc347</g:link><br>
-                    Bitcoin - <g:link
-                            uri="https://www.blockchain.com/btc/address/39pMQ4xkRYY8osR8SncEbSn3TSbCvVnwBi">39pMQ4xkRYY8osR8SncEbSn3TSbCvVnwBi</g:link>
-                </div>
             </div>
         </div>
         <!-- / .row -->
@@ -181,23 +186,23 @@
                 </div>
             </div>
 
-        <div class="col-xs-6 col-sm-3 col-md-2">
-            <div class="skills__item">
-                <div class="skills-item__title">Twitter - <a href="https://twitter.com/devtesterro">devtester</a>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="skills__item">
+                    <div class="skills-item__title">Twitter - <a href="https://twitter.com/devtesterro">devtester</a>
+                    </div>
+                    <span class="skills-item__donut" data-peity='{ "fill": ["#6C5B7B", "#EEE"] }'>11/12</span>
                 </div>
-                <span class="skills-item__donut" data-peity='{ "fill": ["#6C5B7B", "#EEE"] }'>11/12</span>
             </div>
-        </div>
 
-        <div class="col-xs-6 col-sm-3 col-md-2">
-            <div class="skills__item">
-                <div class="skills-item__title">Youtube - <a
-                        href="https://www.youtube.com/channel/UCbqx1-8VTRAWYCmwZ3C2atg">channel</a></div>
-                <span class="skills-item__donut" data-peity='{ "fill": ["#355C7D", "#EEE"] }'>11/12</span>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="skills__item">
+                    <div class="skills-item__title">Youtube - <a
+                            href="https://www.youtube.com/channel/UCbqx1-8VTRAWYCmwZ3C2atg">channel</a></div>
+                    <span class="skills-item__donut" data-peity='{ "fill": ["#355C7D", "#EEE"] }'>11/12</span>
+                </div>
             </div>
-        </div>
 
-    </div>
+        </div>
         <!-- / .row -->
     </div>
     <!-- / .container -->

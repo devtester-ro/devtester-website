@@ -3483,7 +3483,7 @@ select[multiple].input-lg {
 }
 
 .other-focuses {
-    background: url(../lines.png) repeat-x center;
+    background: url(../lines.webp) repeat-x center;
     margin-bottom: 25px;
 }
 
@@ -8705,18 +8705,18 @@ body {
 
 /* Hero :: Agency */
 .hero_agency {
-    background-image: url(../bg_1.jpg);
+    background-image: url(../bg_1.webp);
     text-align: center;
 }
 
 .hero_lg {
-    background: url(../bg-lg.jpg) center;
+    background: url(../bg-lg.webp) center;
     background-size: contain;
     text-align: center;
 }
 
 .hero_nintendo {
-    background: url(../bg-nintendo.jpg) center;
+    background: url(../bg-nintendo.webp) center;
     background-size: contain;
     text-align: center;
 }
@@ -8724,7 +8724,7 @@ body {
 /* Hero :: Sign Up */
 .hero_sign-up {
     padding-bottom: 388px;
-    background-image: url(../bg_2.jpg);
+    background-image: url(../bg_2.webp);
     text-align: center;
 }
 
@@ -8834,7 +8834,7 @@ body {
 
 /* Hero :: App */
 .hero_app {
-    background-image: url(../bg_3.jpg);
+    background-image: url(../bg_3.webp);
     text-align: left;
     overflow: hidden;
 }
@@ -9557,7 +9557,7 @@ footer a {
 .coming-soon__wrapper {
     position: relative;
     min-height: 100%;
-    background: url(../bg_1.jpg) center center / cover no-repeat;
+    background: url(../bg_1.webp) center center / cover no-repeat;
     color: rgba(255, 255, 255, 0.6);
 }
 

@@ -265,7 +265,7 @@
                 </div>
 
                 <div class="col-sm-7 col-sm-height col-middle">
-                    <asset:image src="showcase.png" class="img-responsive"/>
+                    <asset:image src="showcase.webp" class="img-responsive"/>
                 </div>
             </div> <!-- / .row-same-height -->
         </div> <!-- / .row -->
@@ -416,7 +416,7 @@
                     <div class="col-xs-6 col-sm-4">
                         <div class="team__item">
                             <div class="team-item__img">
-                                <asset:image src="iulian.jpg" class="img-responsive" alt="Iulian P."/>
+                                <asset:image src="iulian.webp" class="img-responsive" alt="Iulian P."/>
                             </div>
 
                             <div class="row">
@@ -446,7 +446,7 @@
                     <div class="col-xs-6 col-sm-4">
                         <div class="team__item">
                             <div class="team-item__img">
-                                <asset:image src="oana.jpg" class="img-responsive" alt="Ioana S."/>
+                                <asset:image src="oana.webp" class="img-responsive" alt="Ioana S."/>
                             </div>
 
                             <div class="row">
@@ -476,7 +476,7 @@
                     <div class="col-xs-6 col-sm-4">
                         <div class="team__item">
                             <div class="team-item__img">
-                                <asset:image src="palade.jpg" class="img-responsive" alt="Dragos P."/>
+                                <asset:image src="palade.webp" class="img-responsive" alt="Dragos P."/>
                             </div>
 
                             <div class="row">

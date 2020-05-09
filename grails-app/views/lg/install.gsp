@@ -218,14 +218,14 @@
 
                     <div class="col-lg-6">
                         <div class="item item-2">
-                            <a target="_blank" href="/assets/lg-install/1-suffix-device.png"
+                            <a target="_blank" href="/assets/lg-install/1-suffix-device.webp"
                                data-toggle="lightbox" data-gallery="multiimages" data-title="Verify Picture">
-                                <img src="/assets/lg-install/1-suffix-device.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/1-suffix-device.webp" class="img-thumbnail"
                                      alt="Verify Device" width='200' height='190'>
                             </a>
-                            <a target="_blank" href="/assets/lg-install/1-suffix.png" data-toggle="lightbox"
+                            <a target="_blank" href="/assets/lg-install/1-suffix.webp" data-toggle="lightbox"
                                data-gallery="multiimages" data-title="Verify Picture">
-                                <img src="/assets/lg-install/1-suffix.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/1-suffix.webp" class="img-thumbnail"
                                      alt="Verify Device" width='200' height='190'>
                             </a>
                         </div>
@@ -264,19 +264,19 @@
 
                     <div class="col-lg-6">
                         <div class="item item-2">
-                            <a target="_blank" href="/assets/lg-install/1-debug.png" data-toggle="lightbox"
+                            <a target="_blank" href="/assets/lg-install/1-debug.webp" data-toggle="lightbox"
                                data-gallery="multiimages" data-title="Developer Options">
-                                <img src="/assets/lg-install/1-debug.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/1-debug.webp" class="img-thumbnail"
                                      alt="Enable Developer Options" width='160' height='130'>
                             </a>
-                            <a target="_blank" href="/assets/lg-install/2-debug.png" data-toggle="lightbox"
+                            <a target="_blank" href="/assets/lg-install/2-debug.webp" data-toggle="lightbox"
                                data-gallery="multiimages" data-title="Developer Options">
-                                <img src="/assets/lg-install/2-debug.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/2-debug.webp" class="img-thumbnail"
                                      alt="Enable Developer Options" width='160' height='130'>
                             </a>
-                            <a target="_blank" href="/assets/lg-install/3-debug.png" data-toggle="lightbox"
+                            <a target="_blank" href="/assets/lg-install/3-debug.webp" data-toggle="lightbox"
                                data-gallery="multiimages" data-title="Developer Options">
-                                <img src="/assets/lg-install/3-debug.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/3-debug.webp" class="img-thumbnail"
                                      alt="Enable Developer Options" width='160' height='130'>
                             </a>
                         </div>
@@ -318,29 +318,29 @@
 
                     <div class="col-lg-6">
                         <div class="item item-2">
-                            <a target="_blank" href="/assets/lg-install/2-drivers-1.png" data-toggle="lightbox"
+                            <a target="_blank" href="/assets/lg-install/2-drivers-1.webp" data-toggle="lightbox"
                                data-gallery="multiimages" data-title="Download Software">
-                                <img src="/assets/lg-install/2-drivers-1.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/2-drivers-1.webp" class="img-thumbnail"
                                      alt="Download Software" width='160' height='130'>
                             </a>
-                            <a target="_blank" href="/assets/lg-install/2-drivers-2.png" data-toggle="lightbox"
+                            <a target="_blank" href="/assets/lg-install/2-drivers-2.webp" data-toggle="lightbox"
                                data-gallery="multiimages" data-title="Download Software">
-                                <img src="/assets/lg-install/2-drivers-2.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/2-drivers-2.webp" class="img-thumbnail"
                                      alt="Download Software" width='160' height='130'>
                             </a>
-                            <a target="_blank" href="/assets/lg-install/3-flash-1.png" data-toggle="lightbox"
+                            <a target="_blank" href="/assets/lg-install/3-flash-1.webp" data-toggle="lightbox"
                                data-gallery="multiimages" data-title="Download Software">
-                                <img src="/assets/lg-install/3-flash-1.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/3-flash-1.webp" class="img-thumbnail"
                                      alt="Download Software" width='160' height='130'>
                             </a>
-                            <a target="_blank" href="/assets/lg-install/3-flash-2.png" data-toggle="lightbox"
+                            <a target="_blank" href="/assets/lg-install/3-flash-2.webp" data-toggle="lightbox"
                                data-gallery="multiimages" data-title="Download Software">
-                                <img src="/assets/lg-install/3-flash-2.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/3-flash-2.webp" class="img-thumbnail"
                                      alt="Download Software" width='160' height='130'>
                             </a>
-                            <a target="_blank" href="/assets/lg-install/3-flash-3.png" data-toggle="lightbox"
+                            <a target="_blank" href="/assets/lg-install/3-flash-3.webp" data-toggle="lightbox"
                                data-gallery="multiimages" data-title="Download Software">
-                                <img src="/assets/lg-install/3-flash-3.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/3-flash-3.webp" class="img-thumbnail"
                                      alt="Download Software" width='160' height='130'>
                             </a>
                         </div>
@@ -379,29 +379,29 @@
 
                     <div class="col-lg-6">
                         <div class="item item-2">
-                            <a target="_blank" href="/assets/lg-install/4-plug-1.png" data-toggle="lightbox"
+                            <a target="_blank" href="/assets/lg-install/4-plug-1.webp" data-toggle="lightbox"
                                data-gallery="multiimages" data-title="Install KDZ - Part 1">
-                                <img src="/assets/lg-install/4-plug-1.png" class="img-thumbnail" alt="Install KDZ"
+                                <img src="/assets/lg-install/4-plug-1.webp" class="img-thumbnail" alt="Install KDZ"
                                      width='160' height='130'>
                             </a>
-                            <a target="_blank" href="/assets/lg-install/5-flash-1.png" data-toggle="lightbox"
+                            <a target="_blank" href="/assets/lg-install/5-flash-1.webp" data-toggle="lightbox"
                                data-gallery="multiimages" data-title="Install KDZ - Part 1">
-                                <img src="/assets/lg-install/5-flash-1.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/5-flash-1.webp" class="img-thumbnail"
                                      alt="Install KDZ" width='160' height='130'>
                             </a>
-                            <a target="_blank" href="/assets/lg-install/5-flash-2.png" data-toggle="lightbox"
+                            <a target="_blank" href="/assets/lg-install/5-flash-2.webp" data-toggle="lightbox"
                                data-gallery="multiimages" data-title="Install KDZ - Part 1">
-                                <img src="/assets/lg-install/5-flash-2.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/5-flash-2.webp" class="img-thumbnail"
                                      alt="Install KDZ" width='160' height='130'>
                             </a>
-                            <a target="_blank" href="/assets/lg-install/5-flash-3.png" data-toggle="lightbox"
+                            <a target="_blank" href="/assets/lg-install/5-flash-3.webp" data-toggle="lightbox"
                                data-gallery="multiimages" data-title="Install KDZ - Part 1">
-                                <img src="/assets/lg-install/5-flash-3.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/5-flash-3.webp" class="img-thumbnail"
                                      alt="Install KDZ" width='160' height='130'>
                             </a>
-                            <a target="_blank" href="/assets/lg-install/5-flash-4.png" data-toggle="lightbox"
+                            <a target="_blank" href="/assets/lg-install/5-flash-4.webp" data-toggle="lightbox"
                                data-gallery="multiimages" data-title="Install KDZ - Part 1">
-                                <img src="/assets/lg-install/5-flash-4.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/5-flash-4.webp" class="img-thumbnail"
                                      alt="Install KDZ" width='160' height='130'>
                             </a>
                         </div>
@@ -440,29 +440,29 @@
 
                     <div class="col-lg-6">
                         <div class="item item-2">
-                            <a target="_blank" href="/assets/lg-install/5-flash-5.png" data-toggle="lightbox"
+                            <a target="_blank" href="/assets/lg-install/5-flash-5.webp" data-toggle="lightbox"
                                data-gallery="multiimages" data-title="Install KDZ - Part 2">
-                                <img src="/assets/lg-install/5-flash-5.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/5-flash-5.webp" class="img-thumbnail"
                                      alt="Install KDZ" width='160' height='130'>
                             </a>
-                            <a target="_blank" href="/assets/lg-install/5-flash-6.png" data-toggle="lightbox"
+                            <a target="_blank" href="/assets/lg-install/5-flash-6.webp" data-toggle="lightbox"
                                data-gallery="multiimages" data-title="Install KDZ - Part 2">
-                                <img src="/assets/lg-install/5-flash-6.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/5-flash-6.webp" class="img-thumbnail"
                                      alt="Install KDZ" width='160' height='130'>
                             </a>
-                            <a target="_blank" href="/assets/lg-install/5-flash-7.png" data-toggle="lightbox"
+                            <a target="_blank" href="/assets/lg-install/5-flash-7.webp" data-toggle="lightbox"
                                data-gallery="multiimages" data-title="Install KDZ - Part 2">
-                                <img src="/assets/lg-install/5-flash-7.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/5-flash-7.webp" class="img-thumbnail"
                                      alt="Install KDZ" width='160' height='130'>
                             </a>
-                            <a target="_blank" href="/assets/lg-install/install.jpg" data-toggle="lightbox"
+                            <a target="_blank" href="/assets/lg-install/install.webp" data-toggle="lightbox"
                                data-gallery="multiimages" data-title="Install KDZ - Part 2">
-                                <img src="/assets/lg-install/install.jpg" class="img-thumbnail" alt="Install KDZ"
+                                <img src="/assets/lg-install/install.webp" class="img-thumbnail" alt="Install KDZ"
                                      width='160' height='130'>
                             </a>
-                            <a target="_blank" href="/assets/lg-install/finish.jpg" data-toggle="lightbox"
+                            <a target="_blank" href="/assets/lg-install/finish.webp" data-toggle="lightbox"
                                data-gallery="multiimages" data-title="Install KDZ - Part 2">
-                                <img src="/assets/lg-install/finish.jpg" class="img-thumbnail" alt="Install KDZ"
+                                <img src="/assets/lg-install/finish.webp" class="img-thumbnail" alt="Install KDZ"
                                      width='160' height='130'>
                             </a>
                         </div>

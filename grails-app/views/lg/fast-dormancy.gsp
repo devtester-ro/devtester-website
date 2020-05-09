@@ -253,29 +253,29 @@
 
                     <div class="col-lg-6">
                         <div class="item item-2">
-                            <a href="/assets/lg-install/fd-1.png" data-toggle="lightbox" data-gallery="multiimages"
+                            <a href="/assets/lg-install/fd-1.webp" data-toggle="lightbox" data-gallery="multiimages"
                                data-title="Enable Fast Dormancy">
-                                <img src="/assets/lg-install/fd-1.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/fd-1.webp" class="img-thumbnail"
                                      alt="Enable Fast Dormancy" width='160' height='130'>
                             </a>
-                            <a href="/assets/lg-install/fd-2.png" data-toggle="lightbox" data-gallery="multiimages"
+                            <a href="/assets/lg-install/fd-2.webp" data-toggle="lightbox" data-gallery="multiimages"
                                data-title="Enable Fast Dormancy">
-                                <img src="/assets/lg-install/fd-2.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/fd-2.webp" class="img-thumbnail"
                                      alt="Enable Fast Dormancy" width='160' height='130'>
                             </a>
-                            <a href="/assets/lg-install/fd-3.png" data-toggle="lightbox" data-gallery="multiimages"
+                            <a href="/assets/lg-install/fd-3.webp" data-toggle="lightbox" data-gallery="multiimages"
                                data-title="Enable Fast Dormancy">
-                                <img src="/assets/lg-install/fd-3.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/fd-3.webp" class="img-thumbnail"
                                      alt="Enable Fast Dormancy" width='160' height='130'>
                             </a>
-                            <a href="/assets/lg-install/fd-4.png" data-toggle="lightbox" data-gallery="multiimages"
+                            <a href="/assets/lg-install/fd-4.webp" data-toggle="lightbox" data-gallery="multiimages"
                                data-title="Enable Fast Dormancy">
-                                <img src="/assets/lg-install/fd-3.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/fd-3.webp" class="img-thumbnail"
                                      alt="Enable Fast Dormancy" width='160' height='130'>
                             </a>
-                            <a href="/assets/lg-install/fd-5.png" data-toggle="lightbox" data-gallery="multiimages"
+                            <a href="/assets/lg-install/fd-5.webp" data-toggle="lightbox" data-gallery="multiimages"
                                data-title="Enable Fast Dormancy">
-                                <img src="/assets/lg-install/fd-3.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/fd-3.webp" class="img-thumbnail"
                                      alt="Enable Fast Dormancy" width='160' height='130'>
                             </a>
                         </div>

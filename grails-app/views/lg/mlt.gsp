@@ -233,9 +233,9 @@
 
                     <div class="col-lg-6">
                         <div class="item item-2">
-                            <a target="_blank" href="/assets/lg-install/mlt-disable.png" data-toggle="lightbox"
+                            <a target="_blank" href="/assets/lg-install/mlt-disable.webp" data-toggle="lightbox"
                                data-gallery="multiimages" data-title="Disable MLT">
-                                <img src="/assets/lg-install/mlt-disable.png" class="img-thumbnail"
+                                <img src="/assets/lg-install/mlt-disable.webp" class="img-thumbnail"
                                      alt="Disable MLT" width='300' height='400'>
                             </a>
                         </div>

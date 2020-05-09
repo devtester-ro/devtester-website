@@ -226,7 +226,8 @@
                 </div>
 
                 <div class="col-sm-7 col-sm-height col-middle">
-                    <img src="/assets/nintendo-switch-console.jpg" alt="..." class="img-responsive">
+                    <img src="/assets/nintendo-switch-console.webp" alt="nintendo-switch-console"
+                         class="img-responsive">
                 </div>
             </div>
             <!-- / .row-same-height -->
@@ -248,11 +249,11 @@
                 Beautiful games that you can play by yourself or with your friends. No other console will give you as many co-op games as Nintendo Switch.</p>
 
             <div id="owl-demo" class="owl-carousel owl-theme">
-                <div class="item"><img src="/assets/tloz-botw.jpg" alt="Zelda"></div>
+                <div class="item"><img src="/assets/tloz-botw.webp" alt="Zelda"></div>
 
-                <div class="item"><img src="/assets/mario-kart-8-deluxe.jpg" alt="Mario Kart"></div>
+                <div class="item"><img src="/assets/mario-kart-8-deluxe.webp" alt="Mario Kart"></div>
 
-                <div class="item"><img src="/assets/one-two-switch.jpg" alt="One Two"></div>
+                <div class="item"><img src="/assets/one-two-switch.webp" alt="One Two"></div>
             </div>
 
         </div>
@@ -310,7 +311,7 @@
                             <a target="_blank" href="https://l.profitshare.ro/l/7439422" data-toggle="lightbox"
                                data-gallery="multiimages"
                                data-title="joy-cons">
-                                <img style="" src=/assets/nintendo-joy-cons.jpg class="img-rounded" alt="joy-cons"
+                                <img style="" src=/assets/nintendo-joy-cons.webp class="img-rounded" alt="joy-cons"
                                      width='250' height='200'>
                             </a>
 
@@ -340,7 +341,7 @@
                             <br><br><a target="_blank" href="https://l.profitshare.ro/l/7439424" data-toggle="lightbox"
                                        data-gallery="multiimages"
                                        data-title="joy-cons">
-                            <img style="" src=/assets/pro-controller.jpg class="img-rounded"
+                            <img style="" src=/assets/pro-controller.webp class="img-rounded"
                                  alt="pro-controller"
                                  width='190' height='130'>
                         </a>
@@ -372,7 +373,7 @@
                             <a target="_blank" href="https://l.profitshare.ro/l/7439435" data-toggle="lightbox"
                                data-gallery="multiimages"
                                data-title="joy-cons">
-                                <img style="" src=/assets/nintendo-case.jpg class="img-rounded"
+                                <img style="" src=/assets/nintendo-case.webp class="img-rounded"
                                      alt="nintendo-case"
                                      width='130' height='200'>
                             </a>
@@ -404,7 +405,7 @@
                             <a target="_blank" href="https://l.profitshare.ro/l/7439438" data-toggle="lightbox"
                                data-gallery="multiimages"
                                data-title="joy-cons">
-                                <img style="" src=/assets/nintendo-stand.jpg class="img-rounded"
+                                <img style="" src=/assets/nintendo-stand.webp class="img-rounded"
                                      alt="nintendo-case"
                                      width='200' height='200'>
                             </a>
@@ -525,7 +526,7 @@
     <div class="row">
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-                <img src="/assets/zelda-review.jpg" alt="Zelda">
+                <img src="/assets/zelda-review.webp" alt="Zelda">
 
                 <div class="caption">
                     <h3>Zelda Breath of The Wild</h3>
@@ -543,7 +544,7 @@
 
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-                <img src="/assets/snipperclips.jpg" alt="Snipperclips">
+                <img src="/assets/snipperclips.webp" alt="Snipperclips">
 
                 <div class="caption">
                     <h3>Snipperclips: Cut It Out!</h3>
@@ -560,7 +561,7 @@
 
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-                <img src="/assets/console.jpg" alt="Nintendo Switch">
+                <img src="/assets/console.webp" alt="Nintendo Switch">
 
                 <div class="caption">
                     <h3>Nintendo Switch</h3>

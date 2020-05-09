@@ -35,8 +35,8 @@
     <!-- Fonts -->
     <asset:stylesheet rel="preload" src="fonts/open-iconic/font/css/open-iconic-bootstrap.css"/>
     <asset:stylesheet src="fonts/font-awesome/css/font-awesome.min.css"/>
-    <asset:stylesheet src="google-font-1.css"/>
-    <asset:stylesheet src="google-font-2.css"/>
+    <asset:stylesheet rel="preload" src="google-font-1.css"/>
+    <asset:stylesheet rel="preload" src="google-font-2.css"/>
 
     <!-- CSS Custom -->
     <asset:stylesheet src="css/styles.css"/>
@@ -152,7 +152,7 @@
 </div> <!-- / .wrapper -->
 
 <!-- JS Cloud -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.3/js/tether.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>

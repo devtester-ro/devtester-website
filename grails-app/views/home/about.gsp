@@ -268,11 +268,16 @@
                 </tr>
                 <tr class="success">
                     <td>3.4</td>
+                    <td>Website stability</td>
+                    <td>DONE</td>
+                </tr>
+                <tr class="success">
+                    <td>3.5</td>
                     <td>General bug fixes</td>
                     <td>DONE</td>
                 </tr>
                 <tr class="info">
-                    <td>3.5</td>
+                    <td>3.6</td>
                     <td>Full cloud compatible</td>
                     <td>TODO</td>
                 </tr>

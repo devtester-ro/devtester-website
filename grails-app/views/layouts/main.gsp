@@ -104,7 +104,7 @@
             </ul>
 
             <div class="sidebar__logo">
-                DevTester 3.4
+                DevTester 3.5
             </div>
 
         </div>

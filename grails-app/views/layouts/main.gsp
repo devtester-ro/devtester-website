@@ -33,10 +33,10 @@
     <asset:stylesheet src="css/jquery.dataTables.css"/>
 
     <!-- Fonts -->
-    <asset:stylesheet src="fonts/open-iconic/font/css/open-iconic-bootstrap.css"/>
-    <asset:stylesheet src="fonts/font-awesome/css/font-awesome.min.css"/>
-    <asset:stylesheet src="google-font-1.css"/>
-    <asset:stylesheet src="google-font-2.css"/>
+    <asset:stylesheet rel="preload" src="fonts/open-iconic/font/css/open-iconic-bootstrap.css"/>
+    <asset:stylesheet rel="preload" src="fonts/font-awesome/css/font-awesome.min.css"/>
+    <asset:stylesheet rel="preload" src="google-font-1.css"/>
+    <asset:stylesheet rel="preload" src="google-font-2.css"/>
 
     <!-- CSS Custom -->
     <asset:stylesheet src="css/styles.css"/>

@@ -416,7 +416,7 @@
                     <div class="col-xs-6 col-sm-4">
                         <div class="team__item">
                             <div class="team-item__img">
-                                <asset:image src="iulian.webp" class="img-responsive" alt="Iulian P."/>
+                                <img data-src="/assets/iulian.webp" class="img-responsive lazyload" alt="Iulian P."/>
                             </div>
 
                             <div class="row">
@@ -446,7 +446,7 @@
                     <div class="col-xs-6 col-sm-4">
                         <div class="team__item">
                             <div class="team-item__img">
-                                <asset:image src="oana.webp" class="img-responsive" alt="Ioana S."/>
+                                <img data-src="/assets/oana.webp" class="img-responsive lazyload" alt="Ioana S."/>
                             </div>
 
                             <div class="row">
@@ -476,7 +476,7 @@
                     <div class="col-xs-6 col-sm-4">
                         <div class="team__item">
                             <div class="team-item__img">
-                                <asset:image src="palade.webp" class="img-responsive" alt="Dragos P."/>
+                                <img data-src="/assets/palade.webp" class="img-responsive lazyload" alt="Dragos P."/>
                             </div>
 
                             <div class="row">
@@ -540,21 +540,21 @@
                 </div>
             </div>
 
-        <div class="col-xs-6 col-sm-3 col-md-2">
-            <div class="skills__item">
-                <div class="skills-item__title">PERFORMANCE</div>
-                <span class="skills-item__donut" data-peity='{ "fill": ["#6C5B7B", "#EEE"] }'>9/12</span>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="skills__item">
+                    <div class="skills-item__title">PERFORMANCE</div>
+                    <span class="skills-item__donut" data-peity='{ "fill": ["#6C5B7B", "#EEE"] }'>9/12</span>
+                </div>
             </div>
-        </div>
 
-        <div class="col-xs-6 col-sm-3 col-md-2">
-            <div class="skills__item">
-                <div class="skills-item__title">SECURITY</div>
-                <span class="skills-item__donut" data-peity='{ "fill": ["#355C7D", "#EEE"] }'>8/12</span>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="skills__item">
+                    <div class="skills-item__title">SECURITY</div>
+                    <span class="skills-item__donut" data-peity='{ "fill": ["#355C7D", "#EEE"] }'>8/12</span>
+                </div>
             </div>
-        </div>
 
-    </div> <!-- / .row -->
+        </div> <!-- / .row -->
     </div> <!-- / .container -->
 </div> <!-- / .section -->
 

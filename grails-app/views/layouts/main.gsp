@@ -34,7 +34,7 @@
 
     <!-- Fonts -->
     <asset:stylesheet rel="preload" src="fonts/open-iconic/font/css/open-iconic-bootstrap.css"/>
-    <asset:stylesheet rel="preload" src="fonts/font-awesome/css/font-awesome.min.css"/>
+    <asset:stylesheet src="fonts/font-awesome/css/font-awesome.min.css"/>
     <asset:stylesheet rel="preload" src="google-font-1.css"/>
     <asset:stylesheet rel="preload" src="google-font-2.css"/>
 
@@ -152,7 +152,7 @@
 </div> <!-- / .wrapper -->
 
 <!-- JS Cloud -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.3/js/tether.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
@@ -166,6 +166,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.66.0-2013.10.09/jquery.blockUI.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js" async></script>
 <!-- JS Cloud -->
 
 <!-- JS Local -->

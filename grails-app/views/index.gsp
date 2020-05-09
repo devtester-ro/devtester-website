@@ -540,12 +540,12 @@
                 </div>
             </div>
 
-            <div class="col-xs-6 col-sm-3 col-md-2">
-                <div class="skills__item">
-                    <div class="skills-item__title">PERFORMANCE</div>
-                    <span class="skills-item__donut" data-peity='{ "fill": ["#6C5B7B", "#EEE"] }'>9/12</span>
-                </div>
+        <div class="col-xs-6 col-sm-3 col-md-2">
+            <div class="skills__item">
+                <div class="skills-item__title">PERFORMANCE</div>
+                <span class="skills-item__donut" data-peity='{ "fill": ["#6C5B7B", "#EEE"] }'>9/12</span>
             </div>
+        </div>
 
         <div class="col-xs-6 col-sm-3 col-md-2">
             <div class="skills__item">
@@ -656,9 +656,7 @@
         </div>
     </div> <!-- / .row -->
 </div> <!-- / .container -->
-
 <!-- Google captcha API --->
 <asset:javascript src='api.js'/>
-
 </body>
 </html>

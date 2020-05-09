@@ -23,18 +23,18 @@
         <g:layoutTitle default="Open Source | Automation | LG Firmwares | Nintendo Switch - DevTester"/>
     </title>
 
-    <!-- CSS Plugins -->
+    <!-- CSS -->
     <asset:stylesheet src="css/plugins/animate.css"/>
     <asset:stylesheet src="css/plugins/owl.carousel.css"/>
     <asset:stylesheet src="css/plugins/owl.theme.css"/>
     <asset:stylesheet src="css/plugins/lightbox.css"/>
     <asset:stylesheet src="css/docs.min.css"/>
     <asset:stylesheet src="css/dataTables.bootstrap.min.css"/>
+    <asset:stylesheet src="css/jquery.dataTables.css"/>
+
+    <!-- Fonts -->
     <asset:stylesheet src="fonts/open-iconic/font/css/open-iconic-bootstrap.css"/>
     <asset:stylesheet src="fonts/font-awesome/css/font-awesome.min.css"/>
-    <asset:stylesheet src="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css"/>
-
-    <!-- Google Fonts -->
     <asset:stylesheet src="google-font-1.css"/>
     <asset:stylesheet src="google-font-2.css"/>
 
@@ -164,11 +164,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/js/jquery.dataTables.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/js/dataTables.bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.66.0-2013.10.09/jquery.blockUI.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 <!-- JS Cloud -->
 
 <!-- JS Local -->
-<asset:javascript src="wow.min.js"/>
-<asset:javascript src="owl.carousel.min.js"/>
 <asset:javascript src="custom.js"/>
 <asset:javascript src="download.js"/>
 <!-- JS Local -->

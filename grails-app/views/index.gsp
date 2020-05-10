@@ -59,7 +59,7 @@
                 </p>
 
                 <!-- Home buttons -->
-                <a style="border: solid;" target="_blank" href="#"
+                <a style="border: solid;" href="#"
                    class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Cloud</a>
                 <a style="border: solid;" href="#"
                    class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Continuous Integration</a>

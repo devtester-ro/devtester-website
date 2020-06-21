@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: devtester.ro
+Token: d32a51433197e41db4f9f51a71659ad91b2879c3926afe31091c80c043688d2c

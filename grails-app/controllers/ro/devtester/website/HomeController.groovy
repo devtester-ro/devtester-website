@@ -7,6 +7,11 @@ class HomeController {
         render file: ads, contentType: "text/plain"
     }
 
+    def brave() {
+        def ads = this.class.classLoader.getResourceAsStream('analytics/brave-rewards-verification.txt')
+        render file: ads, contentType: "text/plain"
+    }
+
     def robot() {
         def ads = this.class.classLoader.getResourceAsStream('analytics/robots.txt')
         render file: ads, contentType: "text/plain"

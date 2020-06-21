@@ -19,6 +19,7 @@ class UrlMappings {
         "/projects/lg-firmwares"(controller: 'lg')
         "/projects/nintendo-switch"(view: '/nintendo/index')
         "/ads.txt"(controller: 'home', action: 'ads')
+        "/.well-known/brave-rewards-verification.txt"(controller: 'home', action: 'brave')
         "/robots.txt"(controller: 'home', action: 'robot')
         "/sitemap.xml"(controller: 'home', action: 'sitemap')
         "/BingSiteAuth.xml"(controller: 'home', action: 'bing')

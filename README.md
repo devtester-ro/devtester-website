@@ -1,6 +1,6 @@
 ## DevTester - Website
 
-- Run - `./gradlew build`
+- Run - `docker` -> `prepareDocker` -> `createDocker`
 
 ### Build App and Run - Locally
 * BuildImage - `./gradlew buildImage`

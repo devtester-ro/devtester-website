@@ -1,7 +1,5 @@
 ## DevTester - Website
 
-- Run - `docker` -> `prepareDocker` -> `createDocker`
-
 ### Build App and Run - Locally
 * BuildImage - `./gradlew buildImage`
 * CreateNetwork - `docker network create devtester_network`
@@ -14,4 +12,4 @@
 
 ### Changelog
 - View - [changelog](https://devtester.ro/about#changelog)
-- Expose Daemon :2375 for local
+- Expose Daemon `:2375` for local ~ dos2unix

@@ -127,7 +127,7 @@ environments:
   #tag::datasourceProduction[]
   production:
     dataSource:
-      dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+      dialect: org.hibernate.dialect.MySQL8Dialect
       driverClassName: com.mysql.cj.jdbc.Driver
       dbCreate: update
       url: '${JDBC_CONNECTION_STRING}'

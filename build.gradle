@@ -12,7 +12,7 @@ buildscript {
     }
 }
 
-version "3.5"
+version "3.6"
 group "ro.devtester.website"
 
 apply plugin: "eclipse"
@@ -67,7 +67,7 @@ dependencies {
     runtime "com.h2database:h2"
     runtime "org.apache.tomcat:tomcat-jdbc"
     runtime "com.bertramlabs.plugins:asset-pipeline-grails:2.14.2"
-    runtime 'mysql:mysql-connector-java:6.0.5'
+    runtime 'mysql:mysql-connector-java:8.0.17'
     runtime 'com.google.cloud.sql:mysql-socket-factory-connector-j-6:1.0.3'
     testCompile "org.grails:grails-gorm-testing-support"
     testCompile "org.mockito:mockito-core"
